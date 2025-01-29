@@ -1,0 +1,2622 @@
+{
+    "recetas": [
+      {
+        "nombre": "Té de Jengibre y Limón",
+        "descripcion": "Combina las propiedades digestivas del jengibre con las vitaminas del limón, ideal para fortalecer el sistema inmune.",
+        "ingredientes": [
+          "1 trozo de jengibre fresco (5 cm)",
+          "1 limón",
+          "1 taza de agua",
+          "Miel al gusto"
+        ],
+        "preparacion": [
+          "Hervir el agua junto al jengibre durante 10 minutos.",
+          "Exprimir el limón en la taza.",
+          "Colar el té de jengibre y añadir a la taza.",
+          "Endulzar con miel."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Mejora la digestión y fortalece el sistema inmunológico."
+      },
+      {
+        "nombre": "Mascarilla de Miel y Aloe Vera",
+        "descripcion": "Hidrata la piel, aliviando irritaciones y quemaduras leves.",
+        "ingredientes": [
+          "2 cucharadas de miel",
+          "2 cucharadas de gel de aloe vera"
+        ],
+        "preparacion": [
+          "Mezclar ambos ingredientes hasta obtener una pasta homogénea.",
+          "Aplicar sobre el rostro limpio durante 20 minutos.",
+          "Enjuagar con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Hidratante y calmante para la piel."
+      },
+      {
+        "nombre": "Batido de Espinacas y Manzana",
+        "descripcion": "Aporta energía y nutrientes esenciales gracias a la espinaca y la manzana.",
+        "ingredientes": [
+          "1 taza de espinacas",
+          "1 manzana verde",
+          "1 plátano",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Lavar las espinacas y la manzana.",
+          "Colocar todos los ingredientes en la licuadora y mezclar."
+        ],
+        "categoria": "Batidos y jugos",
+        "beneficio_principal": "Energizante y lleno de antioxidantes."
+      },
+      {
+        "nombre": "Infusión de Manzanilla y Lavanda",
+        "descripcion": "Relajante, perfecta para reducir el estrés y conciliar el sueño.",
+        "ingredientes": [
+          "1 bolsita de té de manzanilla",
+          "1 cucharadita de flores de lavanda",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y verterla en una taza.",
+          "Agregar la bolsita de manzanilla y las flores de lavanda.",
+          "Dejar reposar durante 5 minutos y beber."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Reduce el estrés y mejora el sueño."
+      },
+      {
+        "nombre": "Ensalada de Quinoa y Verduras",
+        "descripcion": "Una ensalada nutritiva, rica en proteínas vegetales, ideal para un almuerzo ligero.",
+        "ingredientes": [
+          "1 taza de quinoa cocida",
+          "1 tomate picado",
+          "1 pepino picado",
+          "1/4 de cebolla morada",
+          "Jugo de 1 limón",
+          "Aceite de oliva, sal y pimienta al gusto"
+        ],
+        "preparacion": [
+          "Cocinar la quinoa según las instrucciones del paquete.",
+          "Mezclar la quinoa cocida con las verduras picadas.",
+          "Añadir el jugo de limón, aceite de oliva, sal y pimienta al gusto."
+        ],
+        "categoria": "Ensaladas",
+        "beneficio_principal": "Fuente de proteínas y antioxidantes."
+      },
+      {
+        "nombre": "Té de Rosa Mosqueta",
+        "descripcion": "Un té revitalizante que ayuda a mejorar la piel y fortalece el sistema inmunológico.",
+        "ingredientes": [
+          "1 cucharadita de rosa mosqueta seca",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y añadir las flores de rosa mosqueta.",
+          "Dejar reposar por 10 minutos y colar."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Mejora la salud de la piel y combate los resfriados."
+      },
+      {
+        "nombre": "Exfoliante de Café y Aceite de Coco",
+        "descripcion": "Un exfoliante natural que combate la celulitis y revitaliza la piel.",
+        "ingredientes": [
+          "1/2 taza de café molido",
+          "1/4 taza de aceite de coco",
+          "1 cucharadita de azúcar moreno"
+        ],
+        "preparacion": [
+          "Mezclar todos los ingredientes hasta formar una pasta espesa.",
+          "Aplicar sobre la piel húmeda con movimientos circulares.",
+          "Enjuagar con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado corporal",
+        "beneficio_principal": "Exfoliante revitalizante y anticelulitis."
+      },
+      {
+        "nombre": "Jugo Verde Détox",
+        "descripcion": "Un jugo depurativo que ayuda a limpiar el organismo y mejorar la digestión.",
+        "ingredientes": [
+          "1 pepino",
+          "1 manzana verde",
+          "1 taza de espinacas",
+          "Jugo de 1 limón",
+          "1/2 taza de agua"
+        ],
+        "preparacion": [
+          "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Desintoxica y mejora la digestión."
+      },
+      {
+        "nombre": "Mascarilla de Arcilla Verde",
+        "descripcion": "Una mascarilla purificante que elimina impurezas y controla el exceso de grasa en la piel.",
+        "ingredientes": [
+          "2 cucharadas de arcilla verde en polvo",
+          "1 cucharada de agua"
+        ],
+        "preparacion": [
+          "Mezclar la arcilla con el agua hasta formar una pasta espesa.",
+          "Aplicar sobre el rostro limpio y dejar actuar durante 15 minutos.",
+          "Enjuagar con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Purificante y equilibrante para piel grasa."
+      },
+      {
+        "nombre": "Té de Moringa",
+        "descripcion": "Un té antioxidante que ayuda a reducir la inflamación y aumentar la energía.",
+        "ingredientes": [
+          "1 cucharadita de moringa en polvo",
+          "1 taza de agua caliente"
+        ],
+        "preparacion": [
+          "Añadir la moringa al agua caliente.",
+          "Dejar reposar durante 5 minutos.",
+          "Colar y beber."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Propiedades antioxidantes y antiinflamatorias."
+      },
+      {
+        "nombre": "Aceite de Ricino para Pestañas",
+        "descripcion": "Fortalece las pestañas y promueve su crecimiento natural.",
+        "ingredientes": [
+          "1 cucharadita de aceite de ricino"
+        ],
+        "preparacion": [
+          "Aplicar una pequeña cantidad de aceite de ricino sobre las pestañas antes de dormir.",
+          "Dejar actuar durante la noche y lavar por la mañana."
+        ],
+        "categoria": "Belleza y cuidado capilar",
+        "beneficio_principal": "Estimula el crecimiento de las pestañas."
+      },
+      {
+        "nombre": "Galletas de Avena y Chía",
+        "descripcion": "Galletas saludables ricas en fibra y ácidos grasos omega-3.",
+        "ingredientes": [
+          "1 taza de avena",
+          "2 cucharadas de semillas de chía",
+          "1 plátano maduro",
+          "1/4 taza de miel"
+        ],
+        "preparacion": [
+          "Tritura el plátano y mézclalo con los demás ingredientes.",
+          "Forma pequeñas bolitas y colócalas en una bandeja.",
+          "Hornea a 180°C durante 12-15 minutos."
+        ],
+        "categoria": "Postres",
+        "beneficio_principal": "Rico en fibra y antioxidantes."
+      },
+      {
+        "nombre": "Té de Hierbabuena",
+        "descripcion": "Refrescante y digestivo, ayuda a aliviar molestias estomacales.",
+        "ingredientes": [
+          "1 ramita de hierbabuena fresca",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua.",
+          "Agregar la hierbabuena fresca y dejar reposar durante 5 minutos.",
+          "Colar y beber."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Alivia problemas digestivos y refresca."
+      },
+      {
+        "nombre": "Mascarilla de Plátano y Miel",
+        "descripcion": "Hidrata y suaviza la piel, perfecta para pieles secas.",
+        "ingredientes": [
+          "1 plátano maduro",
+          "1 cucharada de miel"
+        ],
+        "preparacion": [
+          "Tritura el plátano y mezcla con la miel.",
+          "Aplica sobre el rostro limpio y deja actuar 15-20 minutos.",
+          "Enjuaga con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Hidratante y suavizante."
+      },
+      {
+        "nombre": "Té de Lavanda y Miel",
+        "descripcion": "Un té relajante que calma el cuerpo y la mente, ideal para antes de dormir.",
+        "ingredientes": [
+          "1 cucharadita de flores de lavanda secas",
+          "1 cucharadita de miel",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y añadir las flores de lavanda.",
+          "Dejar reposar durante 5 minutos.",
+          "Colar y agregar miel al gusto."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Relajante y mejora la calidad del sueño."
+      },
+      {
+        "nombre": "Exfoliante de Sal del Mar y Aceite de Oliva",
+        "descripcion": "Exfolia profundamente la piel, eliminando células muertas y dejándola suave y rejuvenecida.",
+        "ingredientes": [
+          "1/2 taza de sal marina",
+          "2 cucharadas de aceite de oliva"
+        ],
+        "preparacion": [
+          "Mezclar ambos ingredientes hasta formar una pasta.",
+          "Masajear sobre la piel húmeda con movimientos circulares.",
+          "Enjuagar con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado corporal",
+        "beneficio_principal": "Exfoliante natural que mejora la circulación."
+      },
+      {
+        "nombre": "Jugo de Pepino y Limón",
+        "descripcion": "Un jugo refrescante que hidrata el cuerpo y purifica la piel.",
+        "ingredientes": [
+          "1 pepino",
+          "Jugo de 1 limón",
+          "1 cucharadita de miel (opcional)",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Hidratante y depurativo."
+      },
+      {
+        "nombre": "Mascarilla de Aguacate y Miel",
+        "descripcion": "Hidratante natural que nutre y suaviza la piel seca.",
+        "ingredientes": [
+          "1 aguacate maduro",
+          "1 cucharada de miel"
+        ],
+        "preparacion": [
+          "Tritura el aguacate y mezcla con la miel.",
+          "Aplica sobre el rostro y deja actuar durante 15 minutos.",
+          "Enjuaga con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Hidratante y regeneradora."
+      },
+      {
+        "nombre": "Batido de Mango y Yogur",
+        "descripcion": "Un batido delicioso y lleno de vitamina C y probióticos.",
+        "ingredientes": [
+          "1 mango maduro",
+          "1/2 taza de yogur natural",
+          "1/2 taza de agua o leche de almendra"
+        ],
+        "preparacion": [
+          "Pelar y trocear el mango.",
+          "Licuar el mango con el yogur y el agua o leche.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Batidos y jugos",
+        "beneficio_principal": "Refrescante y lleno de vitamina C."
+      },
+      {
+        "nombre": "Aceite Esencial de Eucalipto para la Congestión",
+        "descripcion": "Un aceite esencial utilizado para aliviar la congestión nasal y los síntomas de resfriados.",
+        "ingredientes": [
+          "5 gotas de aceite esencial de eucalipto",
+          "10 gotas de aceite base (aceite de coco o almendras)"
+        ],
+        "preparacion": [
+          "Mezcla el aceite esencial de eucalipto con el aceite base.",
+          "Masajear el pecho o las muñecas para inhalar el vapor."
+        ],
+        "categoria": "Aromaterapia",
+        "beneficio_principal": "Alivio para la congestión nasal y resfriados."
+      },
+      {
+        "nombre": "Ensalada de Remolacha y Naranja",
+        "descripcion": "Una ensalada llena de antioxidantes y rica en fibra, ideal para mejorar la digestión.",
+        "ingredientes": [
+          "2 remolachas cocidas",
+          "1 naranja",
+          "1 cucharada de aceite de oliva",
+          "Sal y pimienta al gusto"
+        ],
+        "preparacion": [
+          "Cortar las remolachas y la naranja en rodajas.",
+          "Mezclar con el aceite de oliva, sal y pimienta."
+        ],
+        "categoria": "Ensaladas",
+        "beneficio_principal": "Rico en antioxidantes y fibra."
+      },
+      {
+        "nombre": "Mascarilla de Yogur y Fresas",
+        "descripcion": "Esta mascarilla rejuvenece la piel, dejándola suave y fresca.",
+        "ingredientes": [
+          "2 cucharadas de yogur natural",
+          "2 fresas maduras"
+        ],
+        "preparacion": [
+          "Tritura las fresas y mezcla con el yogur.",
+          "Aplica sobre el rostro limpio y deja actuar durante 15 minutos.",
+          "Enjuaga con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Hidratante y rejuvenecedora."
+      },
+      {
+        "nombre": "Sopa de Tomate y Albahaca",
+        "descripcion": "Sopa reconfortante que ayuda a fortalecer el sistema inmunológico.",
+        "ingredientes": [
+          "4 tomates maduros",
+          "1 ramita de albahaca fresca",
+          "1 taza de caldo de verduras",
+          "1 diente de ajo"
+        ],
+        "preparacion": [
+          "Cocinar los tomates, el ajo y el caldo hasta que los tomates estén tiernos.",
+          "Licuar la mezcla y agregar la albahaca.",
+          "Servir caliente."
+        ],
+        "categoria": "Sopas y cremas",
+        "beneficio_principal": "Rico en licopeno y antioxidantes."
+      },
+      {
+        "nombre": "Té de Romero",
+        "descripcion": "Un té estimulante que mejora la memoria y la concentración.",
+        "ingredientes": [
+          "1 cucharadita de hojas de romero secas",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y añadir las hojas de romero.",
+          "Dejar reposar durante 5-7 minutos y colar."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Mejora la memoria y la concentración."
+      },
+      {
+        "nombre": "Aceite de Oliva y Limón para el Cabello",
+        "descripcion": "Tratamiento hidratante que combate el frizz y fortalece el cabello.",
+        "ingredientes": [
+          "2 cucharadas de aceite de oliva",
+          "Jugo de 1 limón"
+        ],
+        "preparacion": [
+          "Mezclar el aceite de oliva con el jugo de limón.",
+          "Aplicar sobre el cabello y dejar actuar durante 20 minutos.",
+          "Enjuagar bien."
+        ],
+        "categoria": "Belleza y cuidado capilar",
+        "beneficio_principal": "Hidratación profunda y suavidad."
+      },
+      {
+        "nombre": "Té de Jengibre y Limón para la Digestión",
+        "descripcion": "Un té que favorece la digestión y combate las náuseas.",
+        "ingredientes": [
+          "1 trozo de jengibre fresco",
+          "1 limón",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua junto al jengibre durante 10 minutos.",
+          "Exprimir el limón en la taza.",
+          "Colar el té de jengibre y añadir a la taza."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Facilita la digestión y alivia las náuseas."
+      },
+      {
+        "nombre": "Ensalada de Pollo y Espinacas",
+        "descripcion": "Una ensalada rica en proteínas y hierro, perfecta para una comida ligera y nutritiva.",
+        "ingredientes": [
+          "1 pechuga de pollo cocida",
+          "1 taza de espinacas frescas",
+          "1/2 pepino",
+          "Aceite de oliva y vinagre balsámico"
+        ],
+        "preparacion": [
+          "Cortar el pollo en tiras y mezclar con las espinacas y el pepino.",
+          "Añadir aceite de oliva y vinagre balsámico."
+        ],
+        "categoria": "Ensaladas",
+        "beneficio_principal": "Rico en proteínas y hierro."
+      },
+      {
+        "nombre": "Aceite de Coco para Hidratar los Labios",
+        "descripcion": "Un remedio natural que mantiene los labios hidratados y suaves.",
+        "ingredientes": [
+          "1 cucharadita de aceite de coco"
+        ],
+        "preparacion": [
+          "Aplicar una pequeña cantidad de aceite de coco sobre los labios.",
+          "Dejar absorber."
+        ],
+        "categoria": "Belleza y cuidado corporal",
+        "beneficio_principal": "Hidratante y reparador."
+      },
+      {
+        "nombre": "Sopa de Calabacín y Ajo",
+        "descripcion": "Sopa ligera y saludable que favorece la digestión y es rica en nutrientes.",
+        "ingredientes": [
+          "2 calabacines",
+          "1 diente de ajo",
+          "1 taza de caldo de verduras"
+        ],
+        "preparacion": [
+          "Cocinar los calabacines y el ajo en el caldo hasta que estén tiernos.",
+          "Licuar la mezcla hasta obtener una textura suave.",
+          "Servir caliente."
+        ],
+        "categoria": "Sopas y cremas",
+        "beneficio_principal": "Ligera, rica en fibra y antioxidantes."
+      },
+      {
+        "nombre": "Jugo de Zanahoria y Naranja",
+        "descripcion": "Un jugo lleno de vitamina C y betacarotenos, ideal para mejorar la salud ocular.",
+        "ingredientes": [
+          "2 zanahorias",
+          "1 naranja"
+        ],
+        "preparacion": [
+          "Licuar las zanahorias con la naranja hasta obtener un jugo homogéneo.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Rico en vitamina C y antioxidantes."
+      },
+      {
+        "nombre": "Aceite Esencial de Lavanda para el Estrés",
+        "descripcion": "Aceite esencial utilizado para aliviar el estrés y la ansiedad.",
+        "ingredientes": [
+          "5 gotas de aceite esencial de lavanda",
+          "1 cucharadita de aceite base (aceite de almendras)"
+        ],
+        "preparacion": [
+          "Mezclar el aceite esencial con el aceite base.",
+          "Masajear las muñecas o las sienes para aliviar el estrés."
+        ],
+        "categoria": "Aromaterapia",
+        "beneficio_principal": "Relajante y antiestrés."
+      },
+      {
+        "nombre": "Té de Manzanilla con Miel",
+        "descripcion": "Un té suave que calma el sistema nervioso y alivia el malestar estomacal.",
+        "ingredientes": [
+          "1 bolsita de té de manzanilla",
+          "1 cucharadita de miel"
+        ],
+        "preparacion": [
+          "Hervir el agua y añadir la bolsita de té.",
+          "Dejar reposar por 5 minutos.",
+          "Agregar miel al gusto y disfrutar."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Relajante y digestivo."
+      },
+      {
+        "nombre": "Té de Albahaca y Limón",
+        "descripcion": "Un té refrescante y detoxificante que ayuda a mejorar la digestión.",
+        "ingredientes": [
+          "5 hojas de albahaca fresca",
+          "Jugo de 1 limón",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua con las hojas de albahaca.",
+          "Exprimir el limón en una taza.",
+          "Colar el té y verter en la taza."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Detoxificante y digestivo."
+      },
+      {
+        "nombre": "Aceite de Almendra para las Uñas",
+        "descripcion": "Aceite nutritivo que fortalece las uñas quebradizas y las hidrata.",
+        "ingredientes": [
+          "2-3 gotas de aceite de almendra"
+        ],
+        "preparacion": [
+          "Aplicar las gotas de aceite sobre las uñas.",
+          "Masajear suavemente y dejar actuar."
+        ],
+        "categoria": "Belleza y cuidado de las uñas",
+        "beneficio_principal": "Fortalece y nutre las uñas."
+      },
+      {
+        "nombre": "Jugo de Papaya y Limón",
+        "descripcion": "Un jugo refrescante y lleno de vitamina C, ideal para la digestión y la piel.",
+        "ingredientes": [
+          "1 taza de papaya",
+          "Jugo de 1 limón",
+          "1 cucharadita de miel (opcional)",
+          "1/2 taza de agua"
+        ],
+        "preparacion": [
+          "Licuar la papaya, el jugo de limón, la miel y el agua hasta obtener una mezcla homogénea.",
+          "Servir frío."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Rico en vitamina C y fibra, mejora la digestión."
+      },
+      {
+        "nombre": "Mascarilla de Café y Aceite de Coco",
+        "descripcion": "Mascarilla exfoliante y reafirmante que rejuvenece la piel.",
+        "ingredientes": [
+          "2 cucharadas de café molido",
+          "1 cucharada de aceite de coco"
+        ],
+        "preparacion": [
+          "Mezcla los ingredientes hasta formar una pasta.",
+          "Aplica sobre la piel húmeda y masajea en círculos.",
+          "Deja actuar durante 10 minutos y enjuaga con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado corporal",
+        "beneficio_principal": "Exfoliante que mejora la circulación y la textura de la piel."
+      },
+      {
+        "nombre": "Té de Hibisco",
+        "descripcion": "Un té antioxidante que ayuda a regular la presión arterial y mejora la salud cardiovascular.",
+        "ingredientes": [
+          "1 cucharadita de flores secas de hibisco",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y agregar las flores de hibisco.",
+          "Dejar reposar durante 5-7 minutos y colar.",
+          "Servir caliente o frío."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Antioxidante, regula la presión arterial."
+      },
+      {
+        "nombre": "Aceite de Ricino para el Crecimiento del Cabello",
+        "descripcion": "Aceite natural para estimular el crecimiento del cabello y fortalecer las raíces.",
+        "ingredientes": [
+          "2 cucharadas de aceite de ricino"
+        ],
+        "preparacion": [
+          "Calienta ligeramente el aceite de ricino.",
+          "Aplica sobre el cuero cabelludo y masajea.",
+          "Deja actuar durante 30 minutos y luego enjuaga."
+        ],
+        "categoria": "Belleza y cuidado capilar",
+        "beneficio_principal": "Estimula el crecimiento del cabello y fortalece las raíces."
+      },
+      {
+        "nombre": "Ensalada de Garbanzos y Espinacas",
+        "descripcion": "Una ensalada rica en proteínas vegetales y antioxidantes, ideal para una comida ligera.",
+        "ingredientes": [
+          "1 taza de garbanzos cocidos",
+          "1 taza de espinacas frescas",
+          "1 tomate picado",
+          "1 cucharada de aceite de oliva",
+          "Jugo de 1 limón"
+        ],
+        "preparacion": [
+          "Mezclar los garbanzos con las espinacas y el tomate.",
+          "Añadir el aceite de oliva y el jugo de limón.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Ensaladas",
+        "beneficio_principal": "Alto en proteínas y antioxidantes."
+      },
+      {
+        "nombre": "Té de Diente de León",
+        "descripcion": "Un té depurativo que favorece la salud hepática y promueve la eliminación de toxinas.",
+        "ingredientes": [
+          "1 cucharadita de raíz de diente de león",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y agregar la raíz de diente de león.",
+          "Dejar reposar durante 10 minutos y colar."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Desintoxicante y favorece la salud hepática."
+      },
+      {
+        "nombre": "Mascarilla de Miel y Aloe Vera",
+        "descripcion": "Mascarilla hidratante que calmará la piel irritada y la dejará suave.",
+        "ingredientes": [
+          "2 cucharadas de gel de aloe vera",
+          "1 cucharada de miel"
+        ],
+        "preparacion": [
+          "Mezcla el aloe vera con la miel hasta obtener una pasta.",
+          "Aplica sobre el rostro y deja actuar durante 15 minutos.",
+          "Enjuaga con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Hidratante y calmante."
+      },
+      {
+        "nombre": "Sopa de Calabaza y Jengibre",
+        "descripcion": "Una sopa cálida y reconfortante, ideal para el otoño, rica en antioxidantes y vitamina A.",
+        "ingredientes": [
+          "2 tazas de calabaza cocida",
+          "1 trozo de jengibre fresco",
+          "2 tazas de caldo de verduras",
+          "Sal y pimienta al gusto"
+        ],
+        "preparacion": [
+          "Cocinar la calabaza con el jengibre en el caldo de verduras.",
+          "Licuar hasta obtener una textura suave.",
+          "Servir caliente."
+        ],
+        "categoria": "Sopas y cremas",
+        "beneficio_principal": "Rico en vitamina A, antioxidante."
+      },
+      {
+        "nombre": "Jugo de Apio y Manzana",
+        "descripcion": "Un jugo detoxificante que favorece la digestión y ayuda a limpiar el organismo.",
+        "ingredientes": [
+          "1 tallo de apio",
+          "1 manzana verde",
+          "1/2 pepino",
+          "1/2 taza de agua"
+        ],
+        "preparacion": [
+          "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Detoxificante y digestivo."
+      },
+      {
+        "nombre": "Mascarilla de Cúrcuma y Yogur",
+        "descripcion": "Una mascarilla antiinflamatoria que reduce el enrojecimiento y mejora el tono de la piel.",
+        "ingredientes": [
+          "1 cucharadita de cúrcuma en polvo",
+          "2 cucharadas de yogur natural"
+        ],
+        "preparacion": [
+          "Mezcla la cúrcuma con el yogur hasta formar una pasta.",
+          "Aplica sobre el rostro y deja actuar durante 10-15 minutos.",
+          "Enjuaga con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Antiinflamatoria y mejora el tono de la piel."
+      },
+      {
+        "nombre": "Aceite de Oliva y Ajo para el Cabello",
+        "descripcion": "Un tratamiento natural para fortalecer el cabello y estimular su crecimiento.",
+        "ingredientes": [
+          "2 cucharadas de aceite de oliva",
+          "2 dientes de ajo machacados"
+        ],
+        "preparacion": [
+          "Mezcla el aceite de oliva con los dientes de ajo machacados.",
+          "Aplica sobre el cuero cabelludo y masajea.",
+          "Deja actuar durante 20-30 minutos y enjuaga bien."
+        ],
+        "categoria": "Belleza y cuidado capilar",
+        "beneficio_principal": "Fortalece el cabello y estimula el crecimiento."
+      },
+      {
+        "nombre": "Té de Menta",
+        "descripcion": "Té digestivo que alivia el malestar estomacal y tiene propiedades relajantes.",
+        "ingredientes": [
+          "1 cucharadita de hojas secas de menta",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y agregar las hojas de menta.",
+          "Dejar reposar durante 5 minutos y colar.",
+          "Servir caliente o frío."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Alivia los problemas digestivos y reduce el estrés."
+      },
+      {
+        "nombre": "Ensalada de Arroz Integral y Palta",
+        "descripcion": "Ensalada ligera y nutritiva, rica en fibra, grasas saludables y proteínas vegetales.",
+        "ingredientes": [
+          "1 taza de arroz integral cocido",
+          "1 palta",
+          "1 tomate picado",
+          "Aceite de oliva, sal y pimienta al gusto"
+        ],
+        "preparacion": [
+          "Mezcla el arroz cocido con el tomate y la palta en cubos.",
+          "Añadir aceite de oliva, sal y pimienta al gusto."
+        ],
+        "categoria": "Ensaladas",
+        "beneficio_principal": "Rico en fibra y grasas saludables."
+      },
+      {
+        "nombre": "Sopa de Lentejas y Espinacas",
+        "descripcion": "Sopa rica en hierro y proteínas, ideal para fortalecer el sistema inmune.",
+        "ingredientes": [
+          "1 taza de lentejas cocidas",
+          "2 tazas de espinacas frescas",
+          "1 zanahoria picada",
+          "1 diente de ajo picado",
+          "2 tazas de caldo de verduras"
+        ],
+        "preparacion": [
+          "Cocinar las lentejas y las verduras en el caldo de verduras.",
+          "Cocinar hasta que las lentejas estén tiernas.",
+          "Servir caliente."
+        ],
+        "categoria": "Sopas y cremas",
+        "beneficio_principal": "Rico en hierro y proteínas vegetales."
+      },
+      {
+        "nombre": "Jugo de Granada y Limón",
+        "descripcion": "Un jugo antioxidante que combate el envejecimiento prematuro y mejora la circulación.",
+        "ingredientes": [
+          "1/2 taza de jugo de granada",
+          "Jugo de 1 limón",
+          "1 cucharadita de miel (opcional)"
+        ],
+        "preparacion": [
+          "Mezcla el jugo de granada con el de limón y la miel.",
+          "Servir frío."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Antioxidante y mejora la circulación."
+      },
+      {
+        "nombre": "Aceite de Coco y Aloe Vera para la Piel",
+        "descripcion": "Un remedio hidratante que suaviza la piel seca y ayuda a calmar las quemaduras solares.",
+        "ingredientes": [
+          "2 cucharadas de aceite de coco",
+          "2 cucharadas de gel de aloe vera"
+        ],
+        "preparacion": [
+          "Mezclar ambos ingredientes hasta obtener una mezcla homogénea.",
+          "Aplicar sobre la piel limpia y masajear."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Hidratante y calmante."
+      },
+      {
+        "nombre": "Té de Jengibre y Menta",
+        "descripcion": "Té con propiedades digestivas que alivia los dolores estomacales y mejora la circulación.",
+        "ingredientes": [
+          "1 trozo de jengibre fresco",
+          "1 cucharadita de hojas de menta",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua con el jengibre durante 10 minutos.",
+          "Añadir las hojas de menta y dejar reposar 5 minutos.",
+          "Colar y servir."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Digestivo y mejora la circulación."
+      },
+      {
+        "nombre": "Té de Manzanilla con Anís",
+        "descripcion": "Un té relajante que alivia dolores estomacales y mejora la digestión.",
+        "ingredientes": [
+          "1 bolsita de té de manzanilla",
+          "1/2 cucharadita de anís estrellado",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y agregar la bolsita de té de manzanilla y el anís.",
+          "Dejar reposar durante 5-7 minutos y colar.",
+          "Servir caliente."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Relajante y digestivo."
+      },
+      {
+        "nombre": "Ensalada de Quinoa con Tomate y Pepino",
+        "descripcion": "Una ensalada fresca y nutritiva, ideal para una comida ligera y rica en proteínas vegetales.",
+        "ingredientes": [
+          "1 taza de quinoa cocida",
+          "1 tomate picado",
+          "1 pepino en rodajas",
+          "Aceite de oliva, jugo de limón, sal y pimienta"
+        ],
+        "preparacion": [
+          "Mezclar la quinoa cocida con el tomate y el pepino.",
+          "Aliñar con aceite de oliva, jugo de limón, sal y pimienta."
+        ],
+        "categoria": "Ensaladas",
+        "beneficio_principal": "Rico en proteínas vegetales y antioxidantes."
+      },
+      {
+        "nombre": "Té de Limón y Albahaca",
+        "descripcion": "Un té refrescante que ayuda a desintoxicar el cuerpo y mejora la digestión.",
+        "ingredientes": [
+          "1 limón",
+          "5 hojas de albahaca fresca",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y añadir las hojas de albahaca.",
+          "Exprimir el jugo del limón en la taza.",
+          "Colar el té de albahaca y añadir a la taza."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Detoxificante y digestivo."
+      },
+      {
+        "nombre": "Aceite de Almendras para Hidratar la Piel",
+        "descripcion": "Aceite natural que hidrata profundamente la piel seca, dejándola suave y sedosa.",
+        "ingredientes": [
+          "2 cucharadas de aceite de almendras"
+        ],
+        "preparacion": [
+          "Aplicar el aceite de almendras sobre la piel limpia y seca.",
+          "Masajear suavemente hasta que se absorba."
+        ],
+        "categoria": "Belleza y cuidado corporal",
+        "beneficio_principal": "Hidratante y suavizante."
+      },
+      {
+        "nombre": "Sopa de Brócoli y Ajo",
+        "descripcion": "Sopa nutritiva y rica en antioxidantes, ideal para reforzar el sistema inmunológico.",
+        "ingredientes": [
+          "2 tazas de brócoli cocido",
+          "1 diente de ajo",
+          "2 tazas de caldo de verduras",
+          "Sal y pimienta al gusto"
+        ],
+        "preparacion": [
+          "Cocinar el brócoli y el ajo en el caldo de verduras hasta que estén tiernos.",
+          "Licuar la mezcla hasta obtener una textura suave.",
+          "Servir caliente."
+        ],
+        "categoria": "Sopas y cremas",
+        "beneficio_principal": "Rico en antioxidantes y vitamina C."
+      },
+      {
+        "nombre": "Jugo de Pepino y Piña",
+        "descripcion": "Un jugo refrescante y depurativo que ayuda a eliminar toxinas y mejora la digestión.",
+        "ingredientes": [
+          "1 pepino",
+          "1 taza de piña en trozos",
+          "1/2 taza de agua"
+        ],
+        "preparacion": [
+          "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Depurativo y digestivo."
+      },
+      {
+        "nombre": "Mascarilla de Plátano y Miel",
+        "descripcion": "Mascarilla hidratante que suaviza la piel seca y le da un aspecto saludable.",
+        "ingredientes": [
+          "1 plátano maduro",
+          "1 cucharada de miel"
+        ],
+        "preparacion": [
+          "Tritura el plátano y mezcla con la miel hasta obtener una pasta.",
+          "Aplica sobre el rostro limpio y deja actuar durante 15-20 minutos.",
+          "Enjuaga con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Hidratante y regeneradora."
+      },
+      {
+        "nombre": "Té de Ortiga",
+        "descripcion": "Té que ayuda a desintoxicar el cuerpo y promueve la salud renal.",
+        "ingredientes": [
+          "1 cucharadita de hojas secas de ortiga",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y añadir las hojas de ortiga.",
+          "Dejar reposar durante 5-7 minutos y colar."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Desintoxicante y beneficioso para los riñones."
+      },
+      {
+        "nombre": "Aceite Esencial de Menta para Aliviar Dolores de Cabeza",
+        "descripcion": "Aceite esencial que alivia el dolor de cabeza y la tensión en el cuello.",
+        "ingredientes": [
+          "5 gotas de aceite esencial de menta",
+          "1 cucharadita de aceite base (aceite de almendras o coco)"
+        ],
+        "preparacion": [
+          "Mezclar el aceite esencial con el aceite base.",
+          "Masajear la frente, las sienes o el cuello con la mezcla."
+        ],
+        "categoria": "Aromaterapia",
+        "beneficio_principal": "Alivio de dolores de cabeza y tensión muscular."
+      },
+      {
+        "nombre": "Ensalada de Zanahoria y Manzana",
+        "descripcion": "Una ensalada fresca y dulce, rica en antioxidantes y vitamina C.",
+        "ingredientes": [
+          "1 zanahoria rallada",
+          "1 manzana verde rallada",
+          "Jugo de 1 limón",
+          "1 cucharadita de miel"
+        ],
+        "preparacion": [
+          "Rallar la zanahoria y la manzana.",
+          "Mezclar con el jugo de limón y la miel.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Ensaladas",
+        "beneficio_principal": "Rico en fibra y antioxidantes."
+      },
+      {
+        "nombre": "Sopa de Tomate y Albahaca",
+        "descripcion": "Sopa ligera y sabrosa, rica en licopeno, ideal para la salud cardiovascular.",
+        "ingredientes": [
+          "4 tomates maduros",
+          "1 ramita de albahaca fresca",
+          "1 diente de ajo",
+          "1 taza de caldo de verduras"
+        ],
+        "preparacion": [
+          "Cocinar los tomates con el ajo y el caldo hasta que los tomates estén tiernos.",
+          "Licuar la mezcla y agregar las hojas de albahaca.",
+          "Servir caliente."
+        ],
+        "categoria": "Sopas y cremas",
+        "beneficio_principal": "Rico en licopeno, antioxidante y beneficioso para el corazón."
+      },
+      {
+        "nombre": "Jugo de Apio, Limón y Jengibre",
+        "descripcion": "Un jugo detoxificante que ayuda a limpiar el sistema digestivo y mejora la circulación.",
+        "ingredientes": [
+          "2 tallos de apio",
+          "Jugo de 1 limón",
+          "1 trozo de jengibre fresco",
+          "1/2 taza de agua"
+        ],
+        "preparacion": [
+          "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Detoxificante y digestivo."
+      },
+      {
+        "nombre": "Mascarilla de Cacao y Yogur",
+        "descripcion": "Mascarilla rica en antioxidantes que rejuvenece la piel y mejora su elasticidad.",
+        "ingredientes": [
+          "1 cucharadita de cacao en polvo",
+          "2 cucharadas de yogur natural"
+        ],
+        "preparacion": [
+          "Mezclar el cacao con el yogur hasta obtener una pasta.",
+          "Aplicar sobre el rostro y dejar actuar durante 15 minutos.",
+          "Enjuagar con agua tibia."
+        ],
+        "categoria": "Belleza y cuidado de la piel",
+        "beneficio_principal": "Antioxidante y rejuvenecedora."
+      },
+      {
+        "nombre": "Té de Salvia",
+        "descripcion": "Té con propiedades antimicrobianas y antiinflamatorias, ideal para aliviar problemas de garganta.",
+        "ingredientes": [
+          "1 cucharadita de hojas secas de salvia",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y añadir las hojas de salvia.",
+          "Dejar reposar durante 5 minutos y colar.",
+          "Servir caliente."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Antiinflamatorio y calmante para la garganta."
+      },
+      {
+        "nombre": "Aceite de Argán para la Piel",
+        "descripcion": "Aceite natural que hidrata y nutre la piel seca, dejándola suave y rejuvenecida.",
+        "ingredientes": [
+          "2-3 gotas de aceite de argán"
+        ],
+        "preparacion": [
+          "Aplicar el aceite de argán sobre la piel limpia y masajear suavemente."
+        ],
+        "categoria": "Belleza y cuidado corporal",
+        "beneficio_principal": "Hidratante y regenerador."
+      },
+      {
+        "nombre": "Ensalada de Espinacas y Fresas",
+        "descripcion": "Una ensalada refrescante, rica en vitamina C y antioxidantes, ideal para fortalecer el sistema inmune.",
+        "ingredientes": [
+          "2 tazas de espinacas frescas",
+          "1 taza de fresas en rodajas",
+          "1 cucharada de vinagre balsámico",
+          "1 cucharadita de miel"
+        ],
+        "preparacion": [
+          "Mezclar las espinacas con las fresas.",
+          "Aliñar con vinagre balsámico y miel.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Ensaladas",
+        "beneficio_principal": "Rico en vitamina C y antioxidantes."
+      },
+      {
+        "nombre": "Sopa de Zanahoria y Apio",
+        "descripcion": "Sopa rica en fibra y antioxidantes, ideal para mejorar la digestión y la salud intestinal.",
+        "ingredientes": [
+          "2 zanahorias",
+          "2 tallos de apio",
+          "2 tazas de caldo de verduras"
+        ],
+        "preparacion": [
+          "Cocinar las zanahorias y el apio en el caldo hasta que estén tiernos.",
+          "Licuar hasta obtener una mezcla suave.",
+          "Servir caliente."
+        ],
+        "categoria": "Sopas y cremas",
+        "beneficio_principal": "Rico en fibra y antioxidantes."
+      },
+      {
+        "nombre": "Jugo de Uva y Limón",
+        "descripcion": "Un jugo refrescante lleno de antioxidantes, ideal para proteger las células del envejecimiento prematuro.",
+        "ingredientes": [
+          "1 taza de uvas",
+          "Jugo de 1 limón",
+          "1/2 taza de agua"
+        ],
+        "preparacion": [
+          "Licuar las uvas con el jugo de limón y el agua.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Antioxidante y rejuvenecedor."
+      },
+      {
+        "nombre": "Té de Rosa Mosqueta",
+        "descripcion": "Té rico en vitamina C que ayuda a fortalecer el sistema inmunológico y combate los resfriados.",
+        "ingredientes": [
+          "1 cucharadita de rosa mosqueta seca",
+          "1 taza de agua"
+        ],
+        "preparacion": [
+          "Hervir el agua y agregar las flores de rosa mosqueta.",
+          "Dejar reposar durante 10 minutos.",
+          "Colar y servir caliente."
+        ],
+        "categoria": "Bebidas",
+        "beneficio_principal": "Fortalece el sistema inmunológico y combate los resfriados."
+      },
+      {
+        "nombre": "Aceite de Jojoba para Piel y Cabello",
+        "descripcion": "Aceite que hidrata tanto la piel como el cabello, ayudando a prevenir la deshidratación y a mantener la suavidad.",
+        "ingredientes": [
+          "2 cucharaditas de aceite de jojoba"
+        ],
+        "preparacion": [
+          "Aplicar el aceite de jojoba directamente sobre la piel o el cabello seco.",
+          "Masajear suavemente y dejar actuar durante 20 minutos antes de enjuagar (si es en el cabello)."
+        ],
+        "categoria": "Belleza y cuidado corporal",
+        "beneficio_principal": "Hidratante y regenerador para piel y cabello."
+      },
+      {
+        "nombre": "Sopa de Calabacín y Apio",
+        "descripcion": "Una sopa ligera y baja en calorías, rica en vitaminas y fibra, perfecta para la digestión.",
+        "ingredientes": [
+          "2 calabacines medianos",
+          "2 tallos de apio",
+          "1 diente de ajo",
+          "2 tazas de caldo de verduras"
+        ],
+        "preparacion": [
+          "Cocinar los calabacines, el apio y el ajo en el caldo de verduras hasta que estén tiernos.",
+          "Licuar la mezcla hasta obtener una textura suave.",
+          "Servir caliente."
+        ],
+        "categoria": "Sopas y cremas",
+        "beneficio_principal": "Rico en fibra, ideal para la digestión."
+      },
+      {
+        "nombre": "Jugo de Remolacha y Zanahoria",
+        "descripcion": "Un jugo antioxidante que promueve la salud cardiovascular y mejora la circulación.",
+        "ingredientes": [
+          "1 remolacha pequeña",
+          "2 zanahorias medianas",
+          "1/2 manzana verde"
+        ],
+        "preparacion": [
+          "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+          "Servir inmediatamente."
+        ],
+        "categoria": "Jugos",
+        "beneficio_principal": "Antioxidante y beneficioso para la circulación."
+      },
+      {
+      "nombre": "Mascarilla de Aceite de Oliva y Azúcar",
+      "descripcion": "Exfoliante natural que elimina células muertas y mantiene la piel suave y tersa.",
+      "ingredientes": [
+        "2 cucharadas de aceite de oliva",
+        "1 cucharada de azúcar"
+      ],
+      "preparacion": [
+        "Mezclar el aceite de oliva con el azúcar hasta formar una pasta.",
+        "Masajear la mezcla sobre la piel en círculos, prestando atención a las zonas más secas.",
+        "Enjuagar con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado corporal",
+      "beneficio_principal": "Exfoliante e hidratante"
+    },
+    {
+      "nombre": "Té de Cardo Mariano",
+      "descripcion": "Té que ayuda a proteger el hígado y promueve la desintoxicación del cuerpo.",
+      "ingredientes": [
+        "1 cucharadita de semillas de cardo mariano",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y agregar las semillas de cardo mariano.",
+        "Dejar reposar durante 5-10 minutos.",
+        "Colar y servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Desintoxicante y protector hepático"
+    },
+    {
+      "nombre": "Aceite de Coco y Menta para el Cabello",
+      "descripcion": "Aceite que ayuda a fortalecer el cabello, hidratándolo y dándole brillo.",
+      "ingredientes": [
+        "2 cucharadas de aceite de coco",
+        "5 gotas de aceite esencial de menta"
+      ],
+      "preparacion": [
+        "Mezclar el aceite de coco con el aceite de menta.",
+        "Aplicar sobre el cuero cabelludo y masajear durante 10 minutos.",
+        "Dejar actuar durante 30 minutos y enjuagar bien."
+      ],
+      "categoria": "Belleza y cuidado capilar",
+      "beneficio_principal": "Hidratante, fortalece y da brillo al cabello"
+    },
+    {
+      "nombre": "Ensalada de Tomate y Aguacate",
+      "descripcion": "Ensalada fresca y nutritiva, rica en grasas saludables y antioxidantes.",
+      "ingredientes": [
+        "2 tomates medianos",
+        "1 aguacate",
+        "1 cucharada de aceite de oliva",
+        "Sal y pimienta al gusto"
+      ],
+      "preparacion": [
+        "Cortar el tomate y el aguacate en cubos.",
+        "Aliñar con aceite de oliva, sal y pimienta.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rico en grasas saludables y antioxidantes"
+    },
+    {
+      "nombre": "Té de Manzanilla y Lavanda",
+      "descripcion": "Té relajante y calmante, perfecto para aliviar el estrés y la ansiedad.",
+      "ingredientes": [
+        "1 bolsita de té de manzanilla",
+        "1 cucharadita de flores de lavanda",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y agregar la bolsita de té de manzanilla y las flores de lavanda.",
+        "Dejar reposar durante 5-7 minutos.",
+        "Colar y servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Relajante y calmante"
+    },
+    {
+      "nombre": "Sopa de Puerro y Patata",
+      "descripcion": "Sopa suave y reconfortante, rica en nutrientes y fácil de digerir.",
+      "ingredientes": [
+        "2 puerros",
+        "2 patatas medianas",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar los puerros y las patatas en el caldo de verduras hasta que estén tiernos.",
+        "Licuar la mezcla hasta obtener una textura suave.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Nutritiva y fácil de digerir"
+    },
+    {
+      "nombre": "Jugo de Mora y Limón",
+      "descripcion": "Jugo antioxidante que ayuda a proteger la piel del envejecimiento prematuro y mejora la circulación sanguínea.",
+      "ingredientes": [
+        "1 taza de moras frescas",
+        "Jugo de 1 limón",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar las moras con el jugo de limón y el agua.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Antioxidante y mejora la circulación"
+    },
+    {
+      "nombre": "Mascarilla de Yogur y Miel para el Cabello",
+      "descripcion": "Mascarilla hidratante que revitaliza el cabello seco y da brillo.",
+      "ingredientes": [
+        "2 cucharadas de yogur natural",
+        "1 cucharada de miel"
+      ],
+      "preparacion": [
+        "Mezclar el yogur con la miel hasta obtener una pasta suave.",
+        "Aplicar sobre el cabello y dejar actuar durante 20-30 minutos.",
+        "Enjuagar bien."
+      ],
+      "categoria": "Belleza y cuidado capilar",
+      "beneficio_principal": "Hidratante y revitalizante para el cabello"
+    },
+    {
+      "nombre": "Té de Romero",
+      "descripcion": "Té que mejora la memoria y favorece la circulación sanguínea.",
+      "ingredientes": [
+        "1 cucharadita de hojas secas de romero",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y añadir las hojas de romero.",
+        "Dejar reposar durante 5-7 minutos.",
+        "Colar y servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Mejora la memoria y la circulación"
+    },
+    {
+      "nombre": "Aceite de Almendras para las Uñas",
+      "descripcion": "Aceite que fortalece las uñas y evita la quebradura.",
+      "ingredientes": [
+        "1 cucharadita de aceite de almendras"
+      ],
+      "preparacion": [
+        "Aplicar unas gotas de aceite de almendras sobre las uñas.",
+        "Masajear durante unos minutos para fortalecerlas."
+      ],
+      "categoria": "Belleza y cuidado corporal",
+      "beneficio_principal": "Fortalece las uñas"
+    },
+    {
+      "nombre": "Ensalada de Frutas con Menta",
+      "descripcion": "Ensalada refrescante y nutritiva, perfecta para el verano.",
+      "ingredientes": [
+        "1 manzana",
+        "1 naranja",
+        "1/2 taza de fresas",
+        "2 hojas de menta fresca"
+      ],
+      "preparacion": [
+        "Cortar las frutas en cubos pequeños.",
+        "Aliñar con hojas de menta picadas.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rica en vitaminas y antioxidantes"
+    },
+    {
+      "nombre": "Sopa de Lentejas y Espinacas",
+      "descripcion": "Sopa rica en hierro y proteínas vegetales, ideal para fortalecer el sistema inmunológico.",
+      "ingredientes": [
+        "1 taza de lentejas",
+        "2 tazas de espinacas frescas",
+        "1 diente de ajo",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar las lentejas y el ajo en el caldo de verduras.",
+        "Agregar las espinacas al final y cocinar por 5 minutos más.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en hierro y proteínas vegetales"
+    },
+    {
+      "nombre": "Té de Menta y Limón",
+      "descripcion": "Té refrescante y digestivo, ideal para después de las comidas.",
+      "ingredientes": [
+        "1 taza de hojas de menta fresca",
+        "Jugo de 1/2 limón",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y agregar las hojas de menta.",
+        "Dejar reposar durante 5 minutos.",
+        "Exprimir el jugo de limón y añadir al té.",
+        "Servir caliente o frío."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Digestivo y refrescante"
+    },
+    {
+      "nombre": "Aceite de Coco para el Cabello",
+      "descripcion": "Aceite natural que ayuda a fortalecer, hidratar y dar brillo al cabello.",
+      "ingredientes": [
+        "2 cucharadas de aceite de coco"
+      ],
+      "preparacion": [
+        "Calienta el aceite de coco en las manos y aplícalo sobre el cabello.",
+        "Masajea desde las raíces hasta las puntas.",
+        "Deja actuar durante 30 minutos y enjuaga bien."
+      ],
+      "categoria": "Belleza y cuidado capilar",
+      "beneficio_principal": "Hidratante y fortalecedor para el cabello"
+    },
+    {
+      "nombre": "Ensalada de Col Rizada y Aguacate",
+      "descripcion": "Ensalada nutritiva rica en vitaminas A, C y K, ideal para fortalecer el sistema inmune.",
+      "ingredientes": [
+        "2 tazas de col rizada",
+        "1 aguacate",
+        "1 cucharada de semillas de chía",
+        "1 cucharada de vinagre de manzana",
+        "1 cucharada de aceite de oliva"
+      ],
+      "preparacion": [
+        "Lavar y cortar la col rizada en trozos pequeños.",
+        "Cortar el aguacate en cubos y mezclar con las semillas de chía.",
+        "Aliñar con vinagre de manzana y aceite de oliva."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rico en antioxidantes y vitaminas"
+    },
+    {
+      "nombre": "Té de Hibisco",
+      "descripcion": "Té refrescante y ligeramente ácido que mejora la circulación y controla la presión arterial.",
+      "ingredientes": [
+        "1 cucharadita de flores secas de hibisco",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y añadir las flores de hibisco.",
+        "Dejar reposar durante 5-10 minutos.",
+        "Colar y servir caliente o frío."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Mejora la circulación y controla la presión arterial"
+    },
+    {
+      "nombre": "Mascarilla de Avena y Miel",
+      "descripcion": "Mascarilla hidratante y calmante para la piel, ideal para pieles sensibles.",
+      "ingredientes": [
+        "2 cucharadas de avena molida",
+        "1 cucharada de miel",
+        "1 cucharadita de agua"
+      ],
+      "preparacion": [
+        "Mezclar la avena, la miel y el agua hasta obtener una pasta espesa.",
+        "Aplicar sobre el rostro limpio y dejar actuar durante 15 minutos.",
+        "Enjuagar con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Hidratante y calmante para la piel"
+    },
+    {
+      "nombre": "Jugo de Pepino, Limón y Menta",
+      "descripcion": "Jugo refrescante y detoxificante, ideal para limpiar el sistema digestivo.",
+      "ingredientes": [
+        "1 pepino",
+        "Jugo de 1 limón",
+        "5 hojas de menta fresca",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar el pepino, el jugo de limón, la menta y el agua.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Detoxificante y refrescante"
+    },
+    {
+      "nombre": "Sopa de Tomate y Albahaca",
+      "descripcion": "Sopa nutritiva, rica en licopeno y antioxidantes, excelente para la salud cardiovascular.",
+      "ingredientes": [
+        "4 tomates maduros",
+        "1 diente de ajo",
+        "1 ramita de albahaca",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar los tomates y el ajo en el caldo de verduras hasta que estén tiernos.",
+        "Licuar la mezcla y agregar las hojas de albahaca.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en antioxidantes y beneficioso para el corazón"
+    },
+    {
+      "nombre": "Aceite de Argán para la Piel",
+      "descripcion": "Aceite natural que hidrata la piel y combate los signos del envejecimiento.",
+      "ingredientes": [
+        "3-4 gotas de aceite de argán"
+      ],
+      "preparacion": [
+        "Aplicar unas gotas de aceite sobre la piel limpia.",
+        "Masajear suavemente hasta que se absorba completamente."
+      ],
+      "categoria": "Belleza y cuidado corporal",
+      "beneficio_principal": "Hidratante y rejuvenecedor"
+    },
+    {
+      "nombre": "Jugo de Zanahoria, Manzana y Jengibre",
+      "descripcion": "Jugo lleno de antioxidantes que mejora la digestión y refuerza el sistema inmunológico.",
+      "ingredientes": [
+        "2 zanahorias",
+        "1 manzana verde",
+        "1 trozo pequeño de jengibre fresco",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Antioxidante y digestivo"
+    },
+    {
+      "nombre": "Té de Jengibre y Limón",
+      "descripcion": "Té energizante y antiinflamatorio, ideal para combatir resfriados y mejorar la digestión.",
+      "ingredientes": [
+        "1 trozo de jengibre fresco",
+        "Jugo de 1/2 limón",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua con el jengibre durante 10 minutos.",
+        "Exprimir el jugo de limón y añadirlo al té.",
+        "Servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Antiinflamatorio y digestivo"
+    },
+    {
+      "nombre": "Mascarilla de Arcilla Verde",
+      "descripcion": "Mascarilla purificante que ayuda a eliminar impurezas y controla el exceso de grasa en la piel.",
+      "ingredientes": [
+        "2 cucharadas de arcilla verde",
+        "1 cucharada de agua de rosas"
+      ],
+      "preparacion": [
+        "Mezclar la arcilla con el agua de rosas hasta formar una pasta espesa.",
+        "Aplicar sobre el rostro y dejar actuar durante 15-20 minutos.",
+        "Enjuagar con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Purificante y regulador del exceso de grasa"
+    },
+    {
+      "nombre": "Sopa de Calabaza y Zanahoria",
+      "descripcion": "Sopa suave y reconfortante, rica en vitaminas y antioxidantes, ideal para el sistema inmunológico.",
+      "ingredientes": [
+        "2 tazas de calabaza cocida",
+        "2 zanahorias",
+        "1 diente de ajo",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar las zanahorias, la calabaza y el ajo en el caldo de verduras.",
+        "Licuar hasta obtener una textura suave.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en antioxidantes y vitamina A"
+    },
+    {
+      "id": 125,
+      "nombre": "Aceite Esencial de Lavanda para Relajar",
+      "descripcion": "Aceite esencial que ayuda a reducir el estrés y promueve un sueño reparador.",
+      "ingredientes": [
+        "5 gotas de aceite esencial de lavanda",
+        "1 cucharadita de aceite de almendras"
+      ],
+      "preparacion": [
+        "Mezclar el aceite esencial de lavanda con el aceite de almendras.",
+        "Aplicar unas gotas en las muñecas o el cuello y respirar profundamente."
+      ],
+      "categoria": "Aromaterapia y bienestar",
+      "beneficio_principal": "Relajante y antiestrés"
+    },
+    {
+      "id": 126,
+      "nombre": "Té de Ortiga",
+      "descripcion": "Té purificante que ayuda a mejorar la circulación y a reducir la inflamación.",
+      "ingredientes": [
+        "1 cucharadita de hojas secas de ortiga",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y agregar las hojas de ortiga.",
+        "Dejar reposar durante 5-7 minutos.",
+        "Colar y servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Purificante y antiinflamatorio"
+    },
+    {
+      "id": 127,
+      "nombre": "Ensalada de Pepino y Tomate",
+      "descripcion": "Ensalada fresca y ligera, ideal para refrescarse en los días calurosos.",
+      "ingredientes": [
+        "1 pepino",
+        "2 tomates",
+        "1 cucharada de vinagre de manzana",
+        "1 cucharada de aceite de oliva"
+      ],
+      "preparacion": [
+        "Cortar el pepino y los tomates en rodajas.",
+        "Aliñar con vinagre de manzana y aceite de oliva.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Hidratante y refrescante"
+    },
+    {
+      "id": 128,
+      "nombre": "Sopa de Pimiento Rojo y Tomate",
+      "descripcion": "Sopa llena de vitamina C, ideal para fortalecer el sistema inmune.",
+      "ingredientes": [
+        "2 pimientos rojos",
+        "2 tomates",
+        "1 diente de ajo",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar los pimientos, los tomates y el ajo en el caldo de verduras hasta que estén tiernos.",
+        "Licuar hasta obtener una textura suave.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en vitamina C y antioxidantes"
+    },
+    {
+      "id": 129,
+      "nombre": "Té de Diente de León",
+      "descripcion": "Té depurativo que ayuda a limpiar el hígado y a reducir la retención de líquidos.",
+      "ingredientes": [
+        "1 cucharadita de raíz de diente de león seca",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y añadir la raíz de diente de león.",
+        "Dejar reposar durante 5-10 minutos.",
+        "Colar y servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Desintoxicante y diurético"
+    },
+    {
+      "id": 130,
+      "nombre": "Mascarilla de Aguacate y Miel",
+      "descripcion": "Mascarilla hidratante que combate la sequedad y mejora la elasticidad de la piel.",
+      "ingredientes": [
+        "1 aguacate maduro",
+        "1 cucharada de miel"
+      ],
+      "preparacion": [
+        "Triturar el aguacate y mezclarlo con la miel hasta obtener una pasta suave.",
+        "Aplicar sobre la piel limpia y dejar actuar durante 15-20 minutos.",
+        "Enjuagar con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Hidratante y nutritiva"
+    },
+    {
+      "id": 131,
+      "nombre": "Jugo de Granada y Manzana",
+      "descripcion": "Jugo antioxidante que ayuda a mejorar la salud cardiovascular y a combatir el envejecimiento prematuro.",
+      "ingredientes": [
+        "1 taza de granos de granada",
+        "1 manzana verde",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar los granos de granada, la manzana y el agua hasta obtener una mezcla homogénea.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Antioxidante y cardioprotector"
+    },
+    {
+      "id": 132,
+      "nombre": "Sopa de Lentejas y Calabaza",
+      "descripcion": "Sopa rica en fibra y proteína vegetal, ideal para mantener una digestión saludable.",
+      "ingredientes": [
+        "1 taza de lentejas",
+        "2 tazas de calabaza cocida",
+        "1 zanahoria",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar las lentejas y la zanahoria en el caldo de verduras.",
+        "Añadir la calabaza cocida y licuar hasta obtener una sopa cremosa.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en fibra y proteínas vegetales"
+    },
+    {
+      "id": 133,
+      "nombre": "Té de Romero y Limón",
+      "descripcion": "Té refrescante que mejora la circulación sanguínea y alivia dolores musculares.",
+      "ingredientes": [
+        "1 ramita de romero fresco",
+        "Jugo de 1 limón",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua con el romero durante 5-7 minutos.",
+        "Exprimir el jugo de limón y agregarlo al té.",
+        "Servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Mejora la circulación y alivia dolores musculares"
+    },
+    {
+      "id": 134,
+      "nombre": "Aceite de Jojoba para la Piel",
+      "descripcion": "Aceite natural que hidrata la piel seca y equilibra la producción de grasa en la piel mixta.",
+      "ingredientes": [
+        "3-4 gotas de aceite de jojoba"
+      ],
+      "preparacion": [
+        "Aplicar unas gotas de aceite de jojoba sobre la piel limpia y masajear.",
+        "Dejar actuar durante toda la noche para mejores resultados."
+      ],
+      "categoria": "Belleza y cuidado corporal",
+      "beneficio_principal": "Hidratante y equilibrante para la piel"
+    },
+    {
+      "id": 135,
+      "nombre": "Ensalada de Espinacas, Manzana y Nueces",
+      "descripcion": "Ensalada fresca y energética, rica en antioxidantes, ideal para fortalecer el sistema inmune.",
+      "ingredientes": [
+        "2 tazas de espinacas frescas",
+        "1 manzana",
+        "1/4 taza de nueces picadas",
+        "1 cucharada de vinagre balsámico"
+      ],
+      "preparacion": [
+        "Lavar y cortar las espinacas y la manzana.",
+        "Mezclar todos los ingredientes en un bol.",
+        "Aliñar con vinagre balsámico."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rico en antioxidantes y vitamina C"
+    },
+    {
+      "id": 136,
+      "nombre": "Sopa de Brócoli y Ajo",
+      "descripcion": "Sopa ligera y nutritiva que fortalece el sistema inmune gracias a su alto contenido de vitamina C.",
+      "ingredientes": [
+        "2 tazas de brócoli",
+        "2 dientes de ajo",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar el brócoli y el ajo en el caldo de verduras hasta que estén tiernos.",
+        "Licuar hasta obtener una textura suave.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en vitamina C y antioxidantes"
+    },
+    {
+      "id": 137,
+      "nombre": "Té de Menta, Jengibre y Limón",
+      "descripcion": "Té refrescante que mejora la digestión y alivia los problemas estomacales.",
+      "ingredientes": [
+        "1 trozo de jengibre fresco",
+        "1 ramita de menta fresca",
+        "Jugo de 1/2 limón",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua con el jengibre y la menta durante 5 minutos.",
+        "Exprimir el jugo de limón y añadir al té.",
+        "Servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Digestivo y refrescante"
+    },
+    {
+      "id": 138,
+      "nombre": "Aceite de Coco y Limón para la Piel",
+      "descripcion": "Aceite hidratante y rejuvenecedor que combate la piel seca y proporciona elasticidad.",
+      "ingredientes": [
+        "1 cucharadita de aceite de coco",
+        "Jugo de 1/2 limón"
+      ],
+      "preparacion": [
+        "Mezclar el aceite de coco con el jugo de limón.",
+        "Aplicar sobre la piel limpia y masajear hasta que se absorba."
+      ],
+      "categoria": "Belleza y cuidado corporal",
+      "beneficio_principal": "Hidratante y rejuvenecedor"
+    },
+    {
+      "id": 139,
+      "nombre": "Jugo de Pera, Piña y Jengibre",
+      "descripcion": "Jugo refrescante que mejora la digestión y aporta energía.",
+      "ingredientes": [
+        "1 pera madura",
+        "1 taza de piña",
+        "1 trozo pequeño de jengibre fresco",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Energizante y digestivo"
+    },
+    {
+      "id": 140,
+      "nombre": "Sopa de Apio y Puerro",
+      "descripcion": "Sopa ligera, rica en fibra, ideal para una cena ligera o détox.",
+      "ingredientes": [
+        "2 tallos de apio",
+        "1 puerro",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar el apio y el puerro en el caldo de verduras hasta que estén tiernos.",
+        "Licuar hasta obtener una textura suave.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en fibra y baja en calorías"
+    },
+    {
+      "id": 141,
+      "nombre": "Té de Manzanilla con Miel",
+      "descripcion": "Té calmante y relajante, ideal para reducir el estrés y mejorar el sueño.",
+      "ingredientes": [
+        "1 bolsita de té de manzanilla",
+        "1 cucharadita de miel",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y añadir la bolsita de manzanilla.",
+        "Dejar reposar durante 5 minutos y añadir la miel.",
+        "Servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Calmante y relajante"
+    },
+    {
+      "id": 142,
+      "nombre": "Mascarilla de Cacao y Miel",
+      "descripcion": "Mascarilla antioxidante que combate los signos del envejecimiento y revitaliza la piel.",
+      "ingredientes": [
+        "1 cucharada de cacao en polvo",
+        "1 cucharada de miel",
+        "1 cucharadita de aceite de oliva"
+      ],
+      "preparacion": [
+        "Mezclar todos los ingredientes hasta obtener una pasta suave.",
+        "Aplicar sobre el rostro y dejar actuar durante 15 minutos.",
+        "Enjuagar con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Antioxidante y rejuvenecedor"
+    },
+    {
+      "id": 143,
+      "nombre": "Jugo de Mango y Naranja",
+      "descripcion": "Jugo refrescante y cargado de vitamina C, ideal para fortalecer el sistema inmunológico.",
+      "ingredientes": [
+        "1 mango maduro",
+        "2 naranjas",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar el mango, las naranjas y el agua hasta obtener una mezcla homogénea.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Refuerza el sistema inmunológico"
+    },
+    {
+      "id": 144,
+      "nombre": "Sopa de Garbanzos y Espinacas",
+      "descripcion": "Sopa nutritiva, rica en proteínas y fibra, ideal para una comida completa y saludable.",
+      "ingredientes": [
+        "1 taza de garbanzos cocidos",
+        "2 tazas de espinacas frescas",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar los garbanzos en el caldo de verduras.",
+        "Añadir las espinacas al final y cocinar durante 5 minutos más.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en fibra y proteínas vegetales"
+    },
+    {
+      "id": 145,
+      "nombre": "Té de Albahaca y Limón",
+      "descripcion": "Té refrescante y aromático que ayuda a aliviar problemas digestivos y tiene propiedades antiinflamatorias.",
+      "ingredientes": [
+        "1 ramita de albahaca fresca",
+        "Jugo de 1/2 limón",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y añadir la albahaca.",
+        "Dejar reposar durante 5-7 minutos.",
+        "Exprimir el jugo de limón y añadirlo al té.",
+        "Servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Digestivo y antiinflamatorio"
+    },
+    {
+      "id": 146,
+      "nombre": "Mascarilla de Pepino y Yogur",
+      "descripcion": "Mascarilla refrescante y calmante, ideal para pieles irritadas o inflamadas.",
+      "ingredientes": [
+        "1/2 pepino",
+        "2 cucharadas de yogur natural"
+      ],
+      "preparacion": [
+        "Triturar el pepino hasta obtener una pasta suave.",
+        "Mezclar con el yogur hasta que se integren bien.",
+        "Aplicar sobre el rostro limpio y dejar actuar durante 15 minutos.",
+        "Enjuagar con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Calmante e hidratante"
+    },
+    {
+      "id": 147,
+      "nombre": "Jugo de Tomate y Apio",
+      "descripcion": "Jugo detoxificante que ayuda a purificar el cuerpo y mejorar la circulación.",
+      "ingredientes": [
+        "2 tomates",
+        "2 tallos de apio",
+        "1/2 limón"
+      ],
+      "preparacion": [
+        "Licuar los tomates, el apio y el jugo de limón.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Detoxificante y mejora la circulación"
+    },
+    {
+      "id": 148,
+      "nombre": "Sopa de Champiñones y Ajo",
+      "descripcion": "Sopa ligera y sabrosa, ideal para fortalecer el sistema inmunológico y mejorar la digestión.",
+      "ingredientes": [
+        "1 taza de champiñones",
+        "2 dientes de ajo",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar los champiñones y el ajo en el caldo de verduras.",
+        "Dejar reposar unos minutos y licuar la mezcla.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en antioxidantes y ayuda a la digestión"
+    },
+    {
+      "id": 149,
+      "nombre": "Aceite Esencial de Árbol de Té para la Piel",
+      "descripcion": "Aceite esencial con propiedades antibacterianas que ayuda a tratar el acné y otras imperfecciones de la piel.",
+      "ingredientes": [
+        "2-3 gotas de aceite esencial de árbol de té",
+        "1 cucharadita de aceite de coco o aceite de almendras"
+      ],
+      "preparacion": [
+        "Mezclar las gotas de aceite de árbol de té con el aceite base.",
+        "Aplicar sobre las áreas afectadas por el acné o imperfecciones y dejar actuar durante la noche."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Antibacteriano y antiacné"
+    },
+    {
+      "id": 150,
+      "nombre": "Ensalada de Remolacha y Naranja",
+      "descripcion": "Ensalada rica en antioxidantes, ideal para fortalecer el sistema inmunológico y mejorar la salud cardiovascular.",
+      "ingredientes": [
+        "1 remolacha cocida",
+        "2 naranjas",
+        "1 cucharadita de aceite de oliva",
+        "1 cucharadita de vinagre balsámico"
+      ],
+      "preparacion": [
+        "Cortar la remolacha y las naranjas en rodajas.",
+        "Mezclar en un bol y aliñar con aceite de oliva y vinagre balsámico.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Antioxidante y cardioprotector"
+    },
+    {
+      "id": 151,
+      "nombre": "Té de Canela y Clavo de Olor",
+      "descripcion": "Té reconfortante que ayuda a mejorar la digestión y aumentar las defensas del cuerpo.",
+      "ingredientes": [
+        "1 rama de canela",
+        "2 clavos de olor",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua con la canela y los clavos de olor durante 5 minutos.",
+        "Servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Digestivo y aumenta las defensas"
+    },
+    {
+      "id": 152,
+      "nombre": "Mascarilla de Miel y Limón para el Cabello",
+      "descripcion": "Mascarilla hidratante que combate el frizz y da brillo al cabello.",
+      "ingredientes": [
+        "1 cucharada de miel",
+        "1 cucharadita de jugo de limón",
+        "1 cucharada de aceite de oliva"
+      ],
+      "preparacion": [
+        "Mezclar todos los ingredientes hasta formar una pasta.",
+        "Aplicar sobre el cabello limpio y dejar actuar durante 20 minutos.",
+        "Enjuagar con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado capilar",
+      "beneficio_principal": "Hidrata y da brillo al cabello"
+    },
+    {
+      "id": 153,
+      "nombre": "Jugo de Fresa, Limón y Menta",
+      "descripcion": "Jugo refrescante que ayuda a mejorar la digestión y proporciona una dosis de vitamina C.",
+      "ingredientes": [
+        "1 taza de fresas",
+        "Jugo de 1 limón",
+        "5 hojas de menta",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar las fresas, el jugo de limón, la menta y el agua hasta obtener una mezcla homogénea.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Digestivo y rico en vitamina C"
+    },
+    {
+      "id": 154,
+      "nombre": "Sopa de Apio y Zanahoria",
+      "descripcion": "Sopa ligera y nutritiva, ideal para una comida saludable y baja en calorías.",
+      "ingredientes": [
+        "2 zanahorias",
+        "2 tallos de apio",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar las zanahorias y el apio en el caldo de verduras hasta que estén tiernos.",
+        "Licuar hasta obtener una textura suave.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en fibra y antioxidantes"
+    },
+    {
+      "id": 155,
+      "nombre": "Aceite de Almendras para la Piel",
+      "descripcion": "Aceite hidratante y nutritivo, ideal para pieles secas y agrietadas.",
+      "ingredientes": [
+        "1 cucharadita de aceite de almendras"
+      ],
+      "preparacion": [
+        "Aplicar unas gotas de aceite de almendras sobre la piel limpia.",
+        "Masajear suavemente hasta que se absorba por completo."
+      ],
+      "categoria": "Belleza y cuidado corporal",
+      "beneficio_principal": "Hidratante y suavizante"
+    },
+    {
+      "id": 165,
+      "nombre": "Ensalada de Garbanzos y Atún",
+      "descripcion": "Ensalada rica en proteínas, ideal para una comida rápida y nutritiva.",
+      "ingredientes": [
+        "1 taza de garbanzos cocidos",
+        "1 lata de atún en agua",
+        "1/2 cebolla morada",
+        "1 cucharada de aceite de oliva",
+        "Jugo de 1/2 limón"
+      ],
+      "preparacion": [
+        "Enjuaga y escurre los garbanzos.",
+        "Mezcla con el atún desmenuzado, la cebolla picada, el aceite de oliva y el jugo de limón.",
+        "Sirve inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rico en proteínas y fibra"
+    },
+    {
+      "id": 166,
+      "nombre": "Té de Menta y Manzanilla",
+      "descripcion": "Té calmante que alivia dolores estomacales y ayuda a la digestión.",
+      "ingredientes": [
+        "1 cucharadita de hojas de menta",
+        "1 cucharadita de flores de manzanilla",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y añadir las hojas de menta y manzanilla.",
+        "Dejar reposar durante 5-7 minutos.",
+        "Colar y servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Alivio digestivo y calmante"
+    },
+    {
+      "id": 167,
+      "nombre": "Mascarilla de Avena y Yogur",
+      "descripcion": "Mascarilla suavizante que calma la piel sensible y proporciona hidratación.",
+      "ingredientes": [
+        "2 cucharadas de avena",
+        "2 cucharadas de yogur natural"
+      ],
+      "preparacion": [
+        "Mezcla la avena con el yogur hasta obtener una pasta.",
+        "Aplica sobre el rostro y deja actuar durante 15 minutos.",
+        "Enjuaga con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Calmante e hidratante"
+    },
+    {
+      "id": 168,
+      "nombre": "Jugo de Pepino y Limón",
+      "descripcion": "Jugo refrescante y detoxificante que ayuda a la hidratación y a reducir la retención de líquidos.",
+      "ingredientes": [
+        "1 pepino",
+        "Jugo de 1 limón",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar el pepino con el jugo de limón y el agua.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Detoxificante y refrescante"
+    },
+    {
+      "id": 169,
+      "nombre": "Sopa de Calabaza y Zanahoria",
+      "descripcion": "Sopa ligera y nutritiva, ideal para fortalecer el sistema inmunológico.",
+      "ingredientes": [
+        "2 zanahorias",
+        "1 calabaza pequeña",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar la calabaza y las zanahorias en el caldo de verduras hasta que estén tiernos.",
+        "Licuar hasta obtener una textura cremosa.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en vitamina A y antioxidantes"
+    },
+    {
+      "id": 170,
+      "nombre": "Aceite de Jojoba para la Piel",
+      "descripcion": "Aceite hidratante que ayuda a equilibrar la producción de sebo y mantiene la piel suave.",
+      "ingredientes": [
+        "1 cucharadita de aceite de jojoba"
+      ],
+      "preparacion": [
+        "Aplicar unas gotas de aceite de jojoba sobre la piel limpia y masajear suavemente.",
+        "Dejar actuar durante la noche para una hidratación profunda."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Hidratante y equilibrante"
+    },
+    {
+      "id": 171,
+      "nombre": "Té de Albahaca y Jengibre",
+      "descripcion": "Té refrescante y digestivo que ayuda a calmar el malestar estomacal y mejora la circulación.",
+      "ingredientes": [
+        "1 rama de albahaca fresca",
+        "1 trozo de jengibre fresco",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua con el jengibre durante 5 minutos.",
+        "Añadir las hojas de albahaca y dejar reposar 5 minutos más.",
+        "Colar y servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Digestivo y mejora la circulación"
+    },
+    {
+      "id": 172,
+      "nombre": "Mascarilla de Miel y Aceite de Coco para el Cabello",
+      "descripcion": "Mascarilla reparadora que nutre y revitaliza el cabello seco y dañado.",
+      "ingredientes": [
+        "1 cucharada de miel",
+        "1 cucharada de aceite de coco"
+      ],
+      "preparacion": [
+        "Mezcla la miel y el aceite de coco hasta que se integren bien.",
+        "Aplica sobre el cabello y deja actuar durante 20 minutos.",
+        "Enjuaga con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado capilar",
+      "beneficio_principal": "Reparadora y nutritiva"
+    },
+    {
+      "id": 173,
+      "nombre": "Ensalada de Tomate, Aguacate y Cilantro",
+      "descripcion": "Ensalada fresca y sabrosa, ideal para acompañar cualquier plato principal.",
+      "ingredientes": [
+        "2 tomates",
+        "1 aguacate",
+        "Un puñado de cilantro fresco",
+        "1 cucharadita de aceite de oliva",
+        "Jugo de 1/2 limón"
+      ],
+      "preparacion": [
+        "Cortar los tomates y el aguacate en trozos.",
+        "Mezclar con el cilantro picado, el aceite de oliva y el jugo de limón.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rico en antioxidantes y grasas saludables"
+    },
+    {
+      "id": 174,
+      "nombre": "Té de Hibisco",
+      "descripcion": "Té refrescante y antioxidante que ayuda a mejorar la circulación y controlar la presión arterial.",
+      "ingredientes": [
+        "1 cucharadita de flores de hibisco secas",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y añadir las flores de hibisco.",
+        "Dejar reposar durante 5 minutos.",
+        "Colar y servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Antioxidante y mejora la circulación"
+    },
+    {
+      "id": 175,
+      "nombre": "Mascarilla de Arcilla Verde",
+      "descripcion": "Mascarilla purificante que limpia en profundidad la piel y controla el exceso de grasa.",
+      "ingredientes": [
+        "2 cucharadas de arcilla verde",
+        "1 cucharada de agua"
+      ],
+      "preparacion": [
+        "Mezcla la arcilla con el agua hasta formar una pasta espesa.",
+        "Aplica sobre el rostro y deja actuar durante 10-15 minutos.",
+        "Enjuaga con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Purificante y reguladora del sebo"
+    },
+    {
+      "id": 176,
+      "nombre": "Sopa de Lentejas y Espinacas",
+      "descripcion": "Sopa rica en proteínas y hierro, ideal para mantener niveles energéticos altos.",
+      "ingredientes": [
+        "1 taza de lentejas cocidas",
+        "2 tazas de espinacas frescas",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar las lentejas en el caldo de verduras hasta que estén tiernas.",
+        "Añadir las espinacas al final y cocinar durante 5 minutos más.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en hierro y proteínas vegetales"
+    },
+    {
+      "id": 177,
+      "nombre": "Jugo de Granada y Mora",
+      "descripcion": "Jugo antioxidante que ayuda a fortalecer el sistema inmunológico y a mejorar la salud cardiovascular.",
+      "ingredientes": [
+        "1 taza de granada",
+        "1/2 taza de moras",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar las granadas, las moras y el agua hasta obtener una mezcla homogénea.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Antioxidante y cardioprotector"
+    },
+    {
+      "id": 178,
+      "nombre": "Mascarilla de Acelga y Yogur",
+      "descripcion": "Mascarilla nutritiva que ayuda a revitalizar la piel y reducir la inflamación.",
+      "ingredientes": [
+        "2 hojas de acelga",
+        "2 cucharadas de yogur natural"
+      ],
+      "preparacion": [
+        "Tritura las hojas de acelga y mézclalas con el yogur.",
+        "Aplica la mezcla sobre el rostro limpio y deja actuar durante 15 minutos.",
+        "Enjuaga con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Revitaliza la piel y reduce la inflamación"
+    },
+    {
+      "id": 179,
+      "nombre": "Sopa de Pescado y Almejas",
+      "descripcion": "Sopa rica en ácidos grasos Omega 3, ideal para la salud cardiovascular y el cerebro.",
+      "ingredientes": [
+        "200 g de pescado blanco",
+        "100 g de almejas",
+        "2 tazas de caldo de pescado",
+        "1 cebolla",
+        "2 dientes de ajo"
+      ],
+      "preparacion": [
+        "Cocinar el pescado y las almejas en el caldo de pescado junto con la cebolla y el ajo picados.",
+        "Dejar cocinar durante 20 minutos.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en Omega 3 y proteínas"
+    },
+    {
+      "id": 180,
+      "nombre": "Té de Romero para el Cabello",
+      "descripcion": "Té rejuvenecedor que fortalece el cabello y combate la caída.",
+      "ingredientes": [
+        "1 cucharadita de romero seco",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua con el romero durante 5 minutos.",
+        "Colar y dejar enfriar.",
+        "Usar el té como enjuague final después de lavar el cabello."
+      ],
+      "categoria": "Belleza y cuidado capilar",
+      "beneficio_principal": "Estimula el crecimiento y fortalece el cabello"
+    },
+    {
+      "id": 181,
+      "nombre": "Aceite de Argán para la Piel",
+      "descripcion": "Aceite nutritivo que hidrata la piel y combate las arrugas.",
+      "ingredientes": [
+        "2-3 gotas de aceite de argán"
+      ],
+      "preparacion": [
+        "Aplicar el aceite de argán directamente sobre la piel limpia.",
+        "Masajear suavemente hasta su total absorción."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Hidratante y antienvejecimiento"
+    },
+    {
+      "id": 182,
+      "nombre": "Ensalada de Espinacas, Fresas y Nueces",
+      "descripcion": "Ensalada fresca y deliciosa, rica en antioxidantes y grasas saludables.",
+      "ingredientes": [
+        "2 tazas de espinacas frescas",
+        "1/2 taza de fresas",
+        "1/4 taza de nueces",
+        "1 cucharada de vinagre balsámico"
+      ],
+      "preparacion": [
+        "Cortar las fresas en rodajas y mezclar con las espinacas.",
+        "Añadir las nueces y aliñar con vinagre balsámico.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rico en antioxidantes y grasas saludables"
+    },
+    {
+      "id": 183,
+      "nombre": "Jugo Détox de Apio, Pepino y Limón",
+      "descripcion": "Jugo desintoxicante que ayuda a purificar el cuerpo y mantener la piel radiante.",
+      "ingredientes": [
+        "2 tallos de apio",
+        "1 pepino",
+        "Jugo de 1 limón",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar todos los ingredientes hasta obtener una mezcla homogénea.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Detoxificante y refrescante"
+    },
+    {
+      "id": 184,
+      "nombre": "Té de Jengibre y Miel para la Tos",
+      "descripcion": "Té calmante que ayuda a aliviar la tos y los problemas respiratorios.",
+      "ingredientes": [
+        "1 trozo de jengibre fresco",
+        "1 cucharadita de miel",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua con el jengibre durante 5 minutos.",
+        "Añadir la miel y mezclar bien.",
+        "Servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Alivia la tos y mejora la respiración"
+    },
+    {
+      "id": 185,
+      "nombre": "Mascarilla de Papaya y Miel",
+      "descripcion": "Mascarilla exfoliante y nutritiva, ideal para limpiar la piel y darle un brillo natural.",
+      "ingredientes": [
+        "1/2 papaya madura",
+        "1 cucharada de miel"
+      ],
+      "preparacion": [
+        "Tritura la papaya hasta formar una pasta.",
+        "Mezcla con la miel hasta integrar bien.",
+        "Aplica sobre el rostro y deja actuar durante 10-15 minutos.",
+        "Enjuaga con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Exfoliante y nutritiva"
+    },
+    {
+      "id": 186,
+      "nombre": "Jugo de Mora y Kiwi",
+      "descripcion": "Jugo refrescante y rico en vitamina C, ideal para fortalecer el sistema inmunológico.",
+      "ingredientes": [
+        "1 taza de moras",
+        "2 kiwis",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar las moras, los kiwis y el agua hasta obtener una mezcla homogénea.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Refuerza el sistema inmunológico"
+    },
+    {
+      "id": 187,
+      "nombre": "Ensalada de Quinua y Garbanzos",
+      "descripcion": "Ensalada rica en proteínas vegetales, perfecta como plato principal o acompañante.",
+      "ingredientes": [
+        "1 taza de quinua cocida",
+        "1 taza de garbanzos cocidos",
+        "1 pepino",
+        "1 cucharada de aceite de oliva",
+        "Jugo de 1/2 limón"
+      ],
+      "preparacion": [
+        "Enjuagar la quinua y los garbanzos.",
+        "Cortar el pepino en cubos y mezclar todo en un bol.",
+        "Aliñar con aceite de oliva y jugo de limón.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rico en proteínas vegetales y fibra"
+    },
+    {
+      "id": 188,
+      "nombre": "Sopa de Tomate y Albahaca",
+      "descripcion": "Sopa ligera y reconfortante, ideal para los días fríos.",
+      "ingredientes": [
+        "4 tomates maduros",
+        "1/4 taza de albahaca fresca",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar los tomates en el caldo de verduras hasta que se ablanden.",
+        "Añadir la albahaca picada y dejar cocer por 5 minutos más.",
+        "Licuar hasta obtener una sopa suave.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en antioxidantes y vitamina C"
+    },
+    {
+      "id": 189,
+      "nombre": "Aceite de Coco para la Piel",
+      "descripcion": "Aceite natural que hidrata y suaviza la piel, ideal para pieles secas.",
+      "ingredientes": [
+        "1 cucharadita de aceite de coco"
+      ],
+      "preparacion": [
+        "Aplicar el aceite de coco sobre la piel limpia.",
+        "Masajear suavemente hasta que se absorba por completo."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Hidratante y suavizante"
+    },
+    {
+      "id": 190,
+      "nombre": "Jugo de Sandía y Limón",
+      "descripcion": "Jugo refrescante y diurético, perfecto para combatir la retención de líquidos.",
+      "ingredientes": [
+        "2 tazas de sandía",
+        "Jugo de 1 limón"
+      ],
+      "preparacion": [
+        "Licuar la sandía y el jugo de limón hasta obtener una mezcla homogénea.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Diurético y refrescante"
+    },
+    {
+      "id": 191,
+      "nombre": "Mascarilla de Aceite de Oliva y Miel para la Piel",
+      "descripcion": "Mascarilla hidratante que ayuda a suavizar y nutrir la piel seca.",
+      "ingredientes": [
+        "1 cucharada de aceite de oliva",
+        "1 cucharada de miel"
+      ],
+      "preparacion": [
+        "Mezcla el aceite de oliva y la miel hasta obtener una pasta homogénea.",
+        "Aplica sobre el rostro limpio y deja actuar durante 15-20 minutos.",
+        "Enjuaga con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Hidratante y nutritiva"
+    },
+    {
+      "id": 192,
+      "nombre": "Jugo de Zanahoria, Apio y Naranja",
+      "descripcion": "Jugo revitalizante que promueve una piel saludable y mejora la digestión.",
+      "ingredientes": [
+        "2 zanahorias",
+        "2 tallos de apio",
+        "1 naranja"
+      ],
+      "preparacion": [
+        "Licuar las zanahorias, el apio y el jugo de naranja.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Rico en vitamina C y antioxidantes"
+    },
+    {
+      "id": 193,
+      "nombre": "Sopa de Espinacas y Acelga",
+      "descripcion": "Sopa verde rica en hierro y antioxidantes, ideal para la salud general.",
+      "ingredientes": [
+        "2 tazas de espinacas",
+        "1 taza de acelga",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar las espinacas y la acelga en el caldo de verduras durante 15 minutos.",
+        "Licuar la mezcla hasta obtener una textura suave.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en hierro y antioxidantes"
+    },
+    {
+      "id": 194,
+      "nombre": "Ensalada de Arroz Integral y Aguacate",
+      "descripcion": "Ensalada ligera y saludable, rica en fibra y grasas saludables.",
+      "ingredientes": [
+        "1 taza de arroz integral cocido",
+        "1 aguacate",
+        "1 cucharada de aceite de oliva",
+        "Jugo de 1 limón"
+      ],
+      "preparacion": [
+        "Cocinar el arroz integral y dejar enfriar.",
+        "Cortar el aguacate en trozos y mezclar con el arroz.",
+        "Aliñar con aceite de oliva y jugo de limón.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rico en fibra y grasas saludables"
+    },
+    {
+      "id": 195,
+      "nombre": "Té de Hibisco con Jengibre",
+      "descripcion": "Té refrescante y antiinflamatorio, ideal para la salud digestiva y la circulación.",
+      "ingredientes": [
+        "1 cucharadita de flores de hibisco",
+        "1 trozo de jengibre fresco",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua con las flores de hibisco y el jengibre durante 5 minutos.",
+        "Colar y servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Mejora la circulación y tiene propiedades antiinflamatorias."
+    },
+    {
+      "id": 196,
+      "nombre": "Té de Manzanilla y Limón",
+      "descripcion": "Té calmante y digestivo, perfecto para relajarse antes de dormir.",
+      "ingredientes": [
+        "1 cucharadita de manzanilla",
+        "Jugo de 1/2 limón",
+        "1 taza de agua"
+      ],
+      "preparacion": [
+        "Hervir el agua y añadir la manzanilla.",
+        "Dejar reposar durante 5 minutos y luego añadir el jugo de limón.",
+        "Servir caliente."
+      ],
+      "categoria": "Bebidas",
+      "beneficio_principal": "Calmante y digestivo."
+    },
+    {
+      "id": 197,
+      "nombre": "Mascarilla de Pepino para el Rostro",
+      "descripcion": "Mascarilla refrescante y calmante que hidrata y suaviza la piel.",
+      "ingredientes": [
+        "1/2 pepino",
+        "1 cucharada de yogur natural"
+      ],
+      "preparacion": [
+        "Tritura el pepino y mézclalo con el yogur hasta formar una pasta.",
+        "Aplica sobre el rostro y deja actuar durante 15 minutos.",
+        "Enjuaga con agua tibia."
+      ],
+      "categoria": "Belleza y cuidado de la piel",
+      "beneficio_principal": "Hidratante y refrescante."
+    },
+    {
+      "id": 198,
+      "nombre": "Ensalada de Tomate, Cebolla y Albahaca",
+      "descripcion": "Ensalada sencilla y deliciosa, perfecta como acompañante o entrada.",
+      "ingredientes": [
+        "2 tomates maduros",
+        "1 cebolla roja",
+        "Un puñado de hojas de albahaca",
+        "1 cucharada de aceite de oliva",
+        "Jugo de 1/2 limón"
+      ],
+      "preparacion": [
+        "Cortar los tomates y la cebolla en rodajas finas.",
+        "Mezclar con las hojas de albahaca picadas.",
+        "Aliñar con aceite de oliva y jugo de limón.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Ensaladas",
+      "beneficio_principal": "Rico en antioxidantes y vitaminas."
+    },
+    {
+      "id": 199,
+      "nombre": "Sopa de Puerro y Zanahoria",
+      "descripcion": "Sopa suave y sabrosa, ideal para una comida ligera y reconfortante.",
+      "ingredientes": [
+        "2 puerros",
+        "2 zanahorias",
+        "2 tazas de caldo de verduras"
+      ],
+      "preparacion": [
+        "Cocinar los puerros y las zanahorias en el caldo de verduras durante 20 minutos.",
+        "Licuar hasta obtener una textura cremosa.",
+        "Servir caliente."
+      ],
+      "categoria": "Sopas y cremas",
+      "beneficio_principal": "Rico en fibra y vitaminas."
+    },
+    {
+      "id": 200,
+      "nombre": "Jugo de Pera, Apio y Limón",
+      "descripcion": "Jugo revitalizante y desintoxicante que ayuda a la digestión y a mejorar la piel.",
+      "ingredientes": [
+        "2 peras",
+        "2 tallos de apio",
+        "Jugo de 1 limón",
+        "1/2 taza de agua"
+      ],
+      "preparacion": [
+        "Licuar las peras, el apio, el jugo de limón y el agua.",
+        "Servir inmediatamente."
+      ],
+      "categoria": "Jugos",
+      "beneficio_principal": "Detoxificante y refrescante."
+    }
+  ]
+}

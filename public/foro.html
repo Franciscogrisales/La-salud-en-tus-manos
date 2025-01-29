@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro Comunitario</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Reutilizamos tu archivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Foro Comunitario</h1>
+        <p>Comparte tus comentarios sobre recetas, música o cualquier tema de bienestar.</p>
+    </header>
+
+    <main>
+        <!-- Formulario para agregar un nuevo comentario -->
+        <section id="newComment">
+            <h2>Deja tu Comentario</h2>
+            <form id="commentForm">
+                <label for="name">Tu Nombre:</label>
+                <input type="text" id="name" placeholder="Ingresa tu nombre (opcional)">
+                
+                <label for="comment">Comentario:</label>
+                <textarea id="comment" placeholder="Escribe tu comentario aquí..." required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Lista de comentarios -->
+        <section id="commentsSection">
+            <h2>Comentarios</h2>
+            <ul id="commentsList">
+                <!-- Aquí se generarán dinámicamente los comentarios -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 La Salud al Alcance de Tus Manos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

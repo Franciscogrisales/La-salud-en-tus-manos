@@ -5,12 +5,7 @@ let recipes = [];
 function loadRecipes() {
     console.log("Cargando recetas...");
     fetch('recipes.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
             recipes = data.recetas;
             displayRecipes(recipes);
@@ -21,10 +16,7 @@ function loadRecipes() {
 // Función para mostrar recetas
 function displayRecipes(recipesToDisplay) {
     const recipeList = document.getElementById("recipeList");
-    if (!recipeList) {
-        console.error("No se encontró el contenedor con id 'recipeList'.");
-        return;
-    }
+    if (!recipeList) return;
 
     recipeList.innerHTML = '';
     recipesToDisplay.forEach(recipe => {
@@ -34,11 +26,8 @@ function displayRecipes(recipesToDisplay) {
             <h3>${recipe.nombre}</h3>
             <p><strong>Descripción:</strong> ${recipe.descripcion}</p>
             <p><strong>Beneficio:</strong> ${recipe.beneficio_principal}</p>
-            <p><strong>Ingredientes:</strong></p>
             <ul>${recipe.ingredientes.map(ing => `<li>${ing}</li>`).join('')}</ul>
-            <p><strong>Preparación:</strong></p>
             <ol>${recipe.preparacion.map(step => `<li>${step}</li>`).join('')}</ol>
-            <p><strong>Categoría:</strong> ${recipe.categoria}</p>
         `;
         recipeList.appendChild(recipeCard);
     });
@@ -55,53 +44,33 @@ function buscarRemedio() {
     displayRecipes(filteredRecipes);
 }
 
-// Función para cargar libros
+// 📚 Cargar libros
 function loadBooks() {
     console.log("Cargando libros...");
     const bookList = document.getElementById("bookList");
-
-    if (!bookList) {
-        console.error("No se encontró el contenedor con id 'bookList'.");
-        return;
-    }
+    if (!bookList) return;
 
     fetch('/api/libros')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(books => {
             bookList.innerHTML = '';
             books.forEach(book => {
                 const listItem = document.createElement("li");
-                listItem.innerHTML = `
-                    <strong>${book.title}</strong> - 
-                    <a href="${book.link}" target="_blank">Descargar</a>`;
+                listItem.innerHTML = `<strong>${book.title}</strong> - <a href="${book.link}" target="_blank">Descargar</a>`;
                 bookList.appendChild(listItem);
             });
         })
         .catch(error => console.error('Error al cargar los libros:', error));
 }
 
-// Función para cargar música
+// 🎵 Cargar música relajante
 function loadMusic() {
     console.log("Cargando música relajante...");
     const musicList = document.getElementById("musicList");
-
-    if (!musicList) {
-        console.error("No se encontró el contenedor con id 'musicList'.");
-        return;
-    }
+    if (!musicList) return;
 
     fetch('/api/musica')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(tracks => {
             musicList.innerHTML = '';
             tracks.forEach(track => {
@@ -121,27 +90,14 @@ function loadMusic() {
         .catch(error => console.error('Error al cargar la música:', error));
 }
 
-// Ejecutar funciones según la página
-document.addEventListener('DOMContentLoaded', () => {
-    if (document.getElementById("recipeList")) {
-        loadRecipes();
-    }
-    if (document.getElementById("bookList")) {
-        loadBooks();
-    }
-    if (document.getElementById("musicList")) {
-        loadMusic();
-    }
-});
-// Array global para almacenar comentarios
+// **Foro de comentarios**
 let comments = [];
 
-// Función para cargar comentarios existentes
 function loadComments() {
     const commentsList = document.getElementById("commentsList");
     if (!commentsList) return;
 
-    commentsList.innerHTML = ''; // Limpiar lista
+    commentsList.innerHTML = '';
     comments.forEach((comment, index) => {
         const listItem = document.createElement("li");
         listItem.innerHTML = `
@@ -155,7 +111,6 @@ function loadComments() {
     });
 }
 
-// Función para agregar un nuevo comentario
 function addComment(event) {
     event.preventDefault();
     const nameInput = document.getElementById("name").value.trim();
@@ -173,28 +128,25 @@ function addComment(event) {
     loadComments();
 }
 
-// Función para responder a un comentario
 function replyToComment(index) {
     const replyText = prompt('Escribe tu respuesta:');
     if (!replyText) return;
 
     comments[index].replies.push({
-        name: 'Anónimo', // Puedes capturar el nombre si quieres
+        name: 'Anónimo',
         text: replyText
     });
 
     loadComments();
 }
 
-// Asociar eventos al cargar la página
+// 📌 Ejecutar funciones al cargar la página
 document.addEventListener('DOMContentLoaded', () => {
-    // Detectar si estamos en la página del foro
+    if (document.getElementById("recipeList")) loadRecipes();
+    if (document.getElementById("bookList")) loadBooks();
+    if (document.getElementById("musicList")) loadMusic();
     if (document.getElementById("commentsList")) {
-        const commentForm = document.getElementById("commentForm");
-        if (commentForm) {
-            commentForm.addEventListener('submit', addComment);
-        }
+        document.getElementById("commentForm")?.addEventListener('submit', addComment);
         loadComments();
     }
 });
-

@@ -63,31 +63,35 @@ function loadBooks() {
         .catch(error => console.error('Error al cargar los libros:', error));
 }
 
-// 🎵 Cargar música relajante
+// 🎵 **Cargar música desde Dropbox**
 function loadMusic() {
     console.log("Cargando música relajante...");
     const musicList = document.getElementById("musicList");
     if (!musicList) return;
 
-    fetch('/api/musica')
-        .then(response => response.json())
-        .then(tracks => {
-            musicList.innerHTML = '';
-            tracks.forEach(track => {
-                const listItem = document.createElement("li");
-                listItem.innerHTML = `
-                    <strong>${track.title}</strong><br>
-                    <audio controls>
-                        <source src="${track.link}" type="audio/mpeg">
-                        Tu navegador no soporta el elemento de audio.
-                    </audio>
-                    <br>
-                    <a href="${track.link}" download>Descargar</a>
-                `;
-                musicList.appendChild(listItem);
-            });
-        })
-        .catch(error => console.error('Error al cargar la música:', error));
+    // Lista de canciones con enlaces de Dropbox
+    const tracks = [
+        { title: "Música Binaural para la Concentración", link: "https://www.dropbox.com/scl/fi/561y0l6i2zl7651dd6nr4/Musica-binaural-para-la-concentracion.mp3?rlkey=9swsddddn4zyiins57k9ya24y&raw=1" },
+        { title: "Música Clásica para Calmar la Mente", link: "https://www.dropbox.com/scl/fi/nt326gf5gisxwokc7w1fx/Musica-clasica-para-calmar-la-mente.mp3?rlkey=dwbblx9lap02g1c9grtxxdzt8&raw=1" },
+        { title: "Regeneración de las Emociones", link: "https://www.dropbox.com/scl/fi/lq5utr9i265g692mcj85v/Regeneracion-de-las-emociones.mp3?rlkey=lr8z8bqlgx2z2pxtx81blrrvf&raw=1" },
+        { title: "Música Clásica para la Tranquilidad", link: "https://www.dropbox.com/scl/fi/z2q62gm9b85a4w6958tvr/musica-clasica-para-la-tranquilidad.mp3?rlkey=0f2vlyjlpzlhz7z3sv3s2gbfc&raw=1" },
+        { title: "Música Medieval", link: "https://www.dropbox.com/scl/fi/5mmbhvfu6jp0z570e9vj4/musica-medieval.mp3?rlkey=wb3bjqujjfcveglaa55s0zjmd&raw=1" }
+    ];
+
+    musicList.innerHTML = '';
+    tracks.forEach(track => {
+        const listItem = document.createElement("li");
+        listItem.innerHTML = `
+            <strong>${track.title}</strong><br>
+            <audio controls>
+                <source src="${track.link}" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+            <br>
+            <a href="${track.link}" target="_blank">Descargar</a>
+        `;
+        musicList.appendChild(listItem);
+    });
 }
 
 // **Foro de comentarios**
@@ -111,6 +115,7 @@ function loadComments() {
     });
 }
 
+// Función para agregar un comentario
 function addComment(event) {
     event.preventDefault();
     const nameInput = document.getElementById("name").value.trim();
@@ -128,6 +133,7 @@ function addComment(event) {
     loadComments();
 }
 
+// Función para responder a un comentario
 function replyToComment(index) {
     const replyText = prompt('Escribe tu respuesta:');
     if (!replyText) return;
@@ -140,7 +146,7 @@ function replyToComment(index) {
     loadComments();
 }
 
-// 📌 Ejecutar funciones al cargar la página
+// 📌 **Ejecutar funciones según la página**
 document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementById("recipeList")) loadRecipes();
     if (document.getElementById("bookList")) loadBooks();
@@ -150,3 +156,6 @@ document.addEventListener('DOMContentLoaded', () => {
         loadComments();
     }
 });
+
+
+

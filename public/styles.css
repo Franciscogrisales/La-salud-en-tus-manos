@@ -22,7 +22,8 @@ body {
 
 /* Encabezado */
 header {
-    background: linear-gradient(135deg, var(--color-header), #45A049); /* Gradiente verde oscuro a verde claro */
+   background-image: url('/public/lovepik-natural-green-branch-background-material-picture_500119597.jpg');
+   
     color: #fff;
     padding: 20px;
     text-align: center;

@@ -50,7 +50,7 @@ function loadBooks() {
     const bookList = document.getElementById("bookList");
     if (!bookList) return;
 
-    fetch('/api/libros')
+    fetch('http://localhost:3000/api/libros')
         .then(response => response.json())
         .then(books => {
             bookList.innerHTML = '';

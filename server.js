@@ -3,8 +3,13 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { OpenAI } = require('openai');
+const cors = require ('cors');
+
+
 
 const app = express();
+app.use(cors());
+
 const PORT = 3000;
 
 // Configuración de OpenAI
@@ -13,6 +18,7 @@ const openai = new OpenAI({
 });
 
 // Configura la carpeta "public" para servir archivos estáticos
+
 app.use(express.static('public'));
 app.use(express.json()); // Para manejar datos en formato JSON
 
@@ -59,9 +65,10 @@ app.get('/api/musica', (req, res) => {
 });
 
 // Ruta para obtener dinámicamente las recetas desde recipes.json
+app.use(express.static('public'));
 app.get('/api/recetas', (req, res) => {
     const recipesPath = path.join(__dirname, 'public/recipes.json');
-    fs.readFile(recipesPath, 'utf8', (err, data) => {
+    fsModule.readFile(recipesPath, 'utf8', (err, data) => {
         if (err) {
             console.error('Error al leer recipes.json:', err);
             res.status(500).send('Error al obtener las recetas');

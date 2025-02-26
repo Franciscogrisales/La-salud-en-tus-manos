@@ -36,7 +36,8 @@ app.get('/api/libros', (req, res) => {
             .filter(file => file.endsWith('.pdf'))
             .map(file => ({
                 title: file.replace(/_/g, ' ').replace('.pdf', ''),
-                link: `/libros/${file}`,
+                link: `${req.protocol}://${req.get('host')}/libros/${file}`
+
             }));
 
         res.json(libros);

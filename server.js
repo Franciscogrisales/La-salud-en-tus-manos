@@ -1,9 +1,16 @@
-const express = require("express");
+const express = require("express")
 const cors = require("cors");
 const dotenv = require("dotenv");
 const fetch = require("node-fetch");
 const path = require("path");
-const fs = require ("fs");
+const fs = require("fs");
+
+
+dotenv.config(); 
+
+const app = express();
+app.use(cors());
+
 let conversationHistory = {
     past_user_inputs: [],
     generated_responses: []
@@ -11,12 +18,7 @@ let conversationHistory = {
 
 //validar el import chat
 
-dotenv.config();
 
-
-
-const app = express();
-app.use(cors());
 
 const PORT = process.env.PORT || 5500;
 

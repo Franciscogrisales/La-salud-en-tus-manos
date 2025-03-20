@@ -1,20 +1,79 @@
-const express = require("express")
-const cors = require("cors");
-const dotenv = require("dotenv");
-const fetch = require("node-fetch");
-const path = require("path");
-const fs = require("fs");
-
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, addDoc, getDocs, updateDoc, doc, arrayUnion } from "firebase/firestore";
+import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+import fetch from "node-fetch";
+import path from "path";
+import fs from "fs";
+import { fileURLToPath } from "url";
 
 dotenv.config(); 
-
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const app = express();
+const firebaseConfig = {
+    apiKey: "AIzaSyBiwNT4kJ6TZglNWYmHW-4Wz_T_DExlI94",
+    authDomain: "la-salud-en-tus-manos-ad417.firebaseapp.com",
+    projectId: "la-salud-en-tus-manos-ad417",
+    storageBucket: "la-salud-en-tus-manos-ad417.appspot.com",
+    messagingSenderId: "105485182842",
+    appId: "1:105485182842:web:282f58198d5b22613818c3"  
+};
+
+// Inicializar Firebase
+const firebaseapp = initializeApp(firebaseConfig);
+const db = getFirestore(firebaseapp);
 app.use(cors());
 
 let conversationHistory = {
     past_user_inputs: [],
     generated_responses: []
 };
+// Ruta para guardar comentarios
+app.post("/comentarios", async (req, res) => {
+    try {
+        const { nombre, comentario } = req.body;
+        const docRef = await addDoc(collection(db, "comentarios"), {
+            nombre: nombre || "Anónimo",
+            comentario,
+            respuestas: []  // Inicialmente sin respuestas
+        });
+        res.status(200).json({ id: docRef.id, message: "Comentario guardado" });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+//guardar respuestas
+app.post("/responder", async (req, res) => {
+    try {
+        const { comentarioId, nombre, respuesta } = req.body;
+        const comentarioRef = doc(db, "comentarios", comentarioId);
+
+        await updateDoc(comentarioRef, {
+            respuestas: arrayUnion({ nombre: nombre || "Anónimo", respuesta })
+        });
+
+        res.status(200).json({ message: "Respuesta guardada" });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+//obtener comentarios y respuestas
+app.post("/responder", async (req, res) => {
+    try {
+        const { comentarioId, nombre, respuesta } = req.body;
+        const comentarioRef = doc(db, "comentarios", comentarioId);
+
+        await updateDoc(comentarioRef, {
+            respuestas: arrayUnion({ nombre: nombre || "Anónimo", respuesta })
+        });
+
+        res.status(200).json({ message: "Respuesta guardada" });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
 
 //validar el import chat
 

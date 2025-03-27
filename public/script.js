@@ -158,33 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-//conectar firebase
-document.getElementById("btnEnviar").addEventListener("click", async () => {
-    const nombre = document.getElementById("nombre").value;
-    const comentario = document.getElementById("comentario").value;
 
-    const response = await fetch("/comentarios", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ nombre, comentario })
-    });
-
-    const data = await response.json();
-    console.log(data.message);
-    
-});
-async function responder(comentarioId) {
-    const nombre = prompt("Tu nombre:");
-    const respuesta = prompt("Tu respuesta:");
-
-    await fetch("/responder", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ comentarioId, nombre, respuesta })
-    });
-
-    location.reload();
-}
 
 
 

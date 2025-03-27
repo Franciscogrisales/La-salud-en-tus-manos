@@ -79,7 +79,7 @@ app.post("/responder", async (req, res) => {
 
 
 
-const PORT = process.env.PORT || 5500;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 app.use(express.json()); // Para manejar datos en formato JSON

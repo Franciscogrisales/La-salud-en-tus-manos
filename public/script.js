@@ -51,7 +51,7 @@ function loadBooks() {
     const bookList = document.getElementById("bookList");
     if (!bookList) return;
 
-    fetch('https://la-salud-en-tus-manos.vercel.app/api/libros')
+    fetch('https://la-salud-en-tus-manos.onrender.com/api/libros')
         .then(response => response.json())
         .then(books => {
             bookList.innerHTML = '';

@@ -26,6 +26,7 @@ const firebaseConfig = {
 const firebaseapp = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseapp);
 app.use(cors());
+app.use(express.static(path.join(__dirname, 'public')));
 
 let conversationHistory = {
     past_user_inputs: [],

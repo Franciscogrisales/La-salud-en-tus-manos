@@ -21,6 +21,14 @@ const firebaseConfig = {
     appId: "1:105485182842:web:282f58198d5b22613818c3"  
 };
 
+app.get('/debug/listar-libros', (req, res) => {
+    const librosDir = path.join(__dirname, 'public/libros');
+    fs.readdir(librosDir, (err, files) => {
+      if (err) return res.status(500).send('Error leyendo libros');
+      res.send(files.join('<br>'));
+    });
+  });
+  
 
 // Inicializar Firebase
 const firebaseapp = initializeApp(firebaseConfig);

@@ -52,15 +52,22 @@ function loadBooks() {
     if (!bookList) return;
 
     fetch('https://la-salud-en-tus-manos.onrender.com/api/libros')
-        .then(response => response.json())
-        .then(books => {
-            bookList.innerHTML = '';
-            books.forEach(book => {
-                const listItem = document.createElement("li");
-                listItem.innerHTML = `<strong>${book.title}</strong> - <a href="${book.link}" target="_blank">Descargar</a>`;
-                bookList.appendChild(listItem);
-            });
-        })
+        .then(response => {
+        if (!response.ok) {
+          throw new Error('Error al obtener los libros');
+        }
+        return response.json();
+      })
+      .then(books => {
+        bookList.innerHTML = '';
+        books.forEach(book => {
+          const listItem = document.createElement("li");
+          listItem.innerHTML = `<strong>${book.title}</strong> - <a href="${book.link}" target="_blank">Descargar</a>`;
+          bookList.appendChild(listItem);
+        });
+      })
+    
+
         .catch(error => console.error('Error al cargar los libros:', error));
 }
 

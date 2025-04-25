@@ -7,6 +7,7 @@ import fetch from "node-fetch";
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
+import { error } from "console";
 
 dotenv.config(); 
 const __filename = fileURLToPath(import.meta.url);
@@ -102,8 +103,8 @@ app.get('/api/libros', (req, res) => {
     const librosDir = path.join(__dirname, 'public/libros');
     fs.readdir(librosDir, (err, files) => {
         if (err) {
-            console.error('Error al leer la carpeta de libros:', err);
-            res.status(500).send('Error al obtener los libros');
+            console.error('Error al leer la carpeta de libros:', err.message);
+            res.status(500).json({error: 'Error al obtener los libros'});
             return;
         }
 

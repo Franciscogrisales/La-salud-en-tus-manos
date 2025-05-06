@@ -174,14 +174,13 @@ app.get("/", (req, res) => {
 app.post("/api/chat", async (req, res) => {
     console.log("Cuerpo de la petición:", req.body); 
     console.log("Ruta /api/chat ha sido llamada");
-    const { message } = req.body.message;
-    if (!message){
+    const  message  = typeof req.body.message === 'string'
+    ? req.body.message
+    : req.body.message?.message;
+    if (!message || message.trim() === ''){
         return res.status(400).json({ error: 'Mensaje no proporcionado'});
     }
     
-    if (!message) {
-        return res.status(400).json({ error: 'Mensaje no proporcionado.' });
-    }
    
 
     try {
@@ -193,7 +192,7 @@ app.post("/api/chat", async (req, res) => {
         //agregar mensaje nuevo
         messages.push({ role: "user", content: message});
         //llamar OPENAI
-        const completion = await openai.createChatCompletion({
+        const completion = await openai.chat.completions.create({
             model: "gpt-3.5-turbo",
             messages,
             temperature: 0.7,

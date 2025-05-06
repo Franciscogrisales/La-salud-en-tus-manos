@@ -3,13 +3,27 @@ import { getFirestore, collection, addDoc, getDocs, updateDoc, doc, arrayUnion }
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+dotenv.config(); 
 import fetch from "node-fetch";
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import { error } from "console";
+import OpenAI from "openai";
 
-dotenv.config(); 
+
+const openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY,
+});
+
+// historial de memoria//
+let conversationHistory = {
+    past_user_inputs: [],
+    generated_responses: []
+};
+
+
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const app = express();
@@ -37,10 +51,7 @@ const db = getFirestore(firebaseapp);
 app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
-let conversationHistory = {
-    past_user_inputs: [],
-    generated_responses: []
-};
+
 // Ruta para guardar comentarios
 app.post("/comentarios", async (req, res) => {
     try {
@@ -163,54 +174,48 @@ app.get("/", (req, res) => {
 app.post("/api/chat", async (req, res) => {
     console.log("Cuerpo de la petición:", req.body); 
     console.log("Ruta /api/chat ha sido llamada");
-    const { message } = req.body;
-
+    const { message } = req.body.message;
+    if (!message){
+        return res.status(400).json({ error: 'Mensaje no proporcionado'});
+    }
+    
     if (!message) {
         return res.status(400).json({ error: 'Mensaje no proporcionado.' });
     }
    
+
     try {
-        const body = {
-            inputs:{
-                past_user_inputs: conversationHistory.past_user_inputs,
-                generated_responses: conversationHistory.generated_responses,
-                text: message
-            },
-            parameters: {
-                max_length: 60,
-                temperature: 0.7
-            }
-        };
-        const response = await fetch("https://api-inference.huggingface.co/models/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5",{
-            method: "POST",
-            headers:{
-                "Authorization": `Bearer ${process.env.HUGGINGFACE_API_KEY}`,
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(body)
-        
-        
+        const messages = [];
+        for (let i = 0; i < conversationHistory.past_user_inputs.length; i++){
+            messages.push({role: "user", content: conversationHistory.past_user_inputs[i] });
+            messages.push({role: "assistant", content: conversationHistory.generated_responses[i]});
+        }
+        //agregar mensaje nuevo
+        messages.push({ role: "user", content: message});
+        //llamar OPENAI
+        const completion = await openai.createChatCompletion({
+            model: "gpt-3.5-turbo",
+            messages,
+            temperature: 0.7,
+            max_tokens: 100,
         });
+       const botReply = completion.data.choices[0].message.content;
+       conversationHistory.past_user_inputs.push(message)
+       conversationHistory.generated_responses.push(botReply)
+       console.log("Respuesta de OpenAI", botReply);
+
+       res.json({ message: botReply});
+      
 
        
             
-        const data = await response.json();
-        if (!response.ok) {
-            throw new Error(`Error en la API de Hugging Face: ${response.status} ${response.statusText}`);
-          }
-        if(!Array.isArray(data) || data.length ===0 || !data[0].generated_text){
-            throw    new Error('Respuesta invalida de HugginFace');
-        }  
+        
 
         
-        let botReply= Array.isArray(data) ? data[0].generated_text: data.generated_text;
-        conversationHistory.past_user_inputs.push(message);
-        conversationHistory.generated_responses.push(botReply);
-        console.log("Respuesta de hugginFace:", data);
-        res.json({ message: botReply});
+
         
     } catch (error) {
-        console.error("Error al llamar a la API de hugginFace")
+        console.error("Error al llamar a la API de OpenAI", error);
         res.status(500).json({ error: 'Error interno del servidor.' });
 
     }
@@ -221,5 +226,5 @@ app.post("/api/chat", async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
     console.log("servidor iniciado");
-    console.log("API KEY:", process.env.HUGGINGFACE_API_KEY);
+    console.log("API KEY:", process.env.OPENAI_API_KEY);
 });
